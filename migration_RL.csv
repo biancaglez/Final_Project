@@ -1,0 +1,3194 @@
+"","STNAME","pappy"
+"1","Alabama",4858979
+"2","Alabama",55347
+"3","Alabama",203709
+"4","Alabama",26489
+"5","Alabama",22583
+"6","Alabama",57673
+"7","Alabama",10696
+"8","Alabama",20154
+"9","Alabama",115620
+"10","Alabama",34123
+"11","Alabama",25859
+"12","Alabama",43943
+"13","Alabama",13170
+"14","Alabama",24675
+"15","Alabama",13555
+"16","Alabama",15018
+"17","Alabama",51211
+"18","Alabama",54354
+"19","Alabama",12672
+"20","Alabama",10724
+"21","Alabama",37835
+"22","Alabama",13963
+"23","Alabama",82005
+"24","Alabama",49565
+"25","Alabama",41131
+"26","Alabama",71130
+"27","Alabama",81468
+"28","Alabama",37789
+"29","Alabama",103057
+"30","Alabama",16759
+"31","Alabama",31696
+"32","Alabama",26777
+"33","Alabama",8479
+"34","Alabama",15068
+"35","Alabama",17221
+"36","Alabama",104173
+"37","Alabama",52419
+"38","Alabama",660367
+"39","Alabama",13886
+"40","Alabama",92596
+"41","Alabama",33115
+"42","Alabama",156993
+"43","Alabama",91663
+"44","Alabama",10458
+"45","Alabama",19105
+"46","Alabama",353089
+"47","Alabama",20028
+"48","Alabama",30168
+"49","Alabama",94725
+"50","Alabama",415395
+"51","Alabama",21673
+"52","Alabama",226519
+"53","Alabama",119565
+"54","Alabama",9652
+"55","Alabama",20864
+"56","Alabama",33046
+"57","Alabama",22696
+"58","Alabama",59660
+"59","Alabama",87074
+"60","Alabama",208713
+"61","Alabama",13103
+"62","Alabama",80862
+"63","Alabama",40844
+"64","Alabama",203976
+"65","Alabama",65294
+"66","Alabama",16804
+"67","Alabama",11059
+"68","Alabama",23877
+"69","Alaska",738432
+"70","Alaska",3341
+"71","Alaska",5702
+"72","Alaska",298695
+"73","Alaska",17946
+"74","Alaska",892
+"75","Alaska",1919
+"76","Alaska",4997
+"77","Alaska",99631
+"78","Alaska",2534
+"79","Alaska",2133
+"80","Alaska",32756
+"81","Alaska",58059
+"82","Alaska",13709
+"83","Alaska",13889
+"84","Alaska",8119
+"85","Alaska",1563
+"86","Alaska",101095
+"87","Alaska",9846
+"88","Alaska",9687
+"89","Alaska",7752
+"90","Alaska",3177
+"91","Alaska",6341
+"92","Alaska",8863
+"93","Alaska",1057
+"94","Alaska",6839
+"95","Alaska",9362
+"96","Alaska",2382
+"97","Alaska",613
+"98","Alaska",5533
+"99","Arizona",6828065
+"100","Arizona",71474
+"101","Arizona",126427
+"102","Arizona",139097
+"103","Arizona",53159
+"104","Arizona",37666
+"105","Arizona",9529
+"106","Arizona",20152
+"107","Arizona",4167947
+"108","Arizona",204737
+"109","Arizona",108277
+"110","Arizona",1010025
+"111","Arizona",406584
+"112","Arizona",46461
+"113","Arizona",222255
+"114","Arizona",204275
+"115","Arkansas",2978204
+"116","Arkansas",18433
+"117","Arkansas",20838
+"118","Arkansas",41053
+"119","Arkansas",249672
+"120","Arkansas",37222
+"121","Arkansas",11094
+"122","Arkansas",5229
+"123","Arkansas",27704
+"124","Arkansas",11027
+"125","Arkansas",22633
+"126","Arkansas",15109
+"127","Arkansas",25467
+"128","Arkansas",8311
+"129","Arkansas",24114
+"130","Arkansas",21019
+"131","Arkansas",104354
+"132","Arkansas",61703
+"133","Arkansas",48963
+"134","Arkansas",17284
+"135","Arkansas",7604
+"136","Arkansas",11965
+"137","Arkansas",18778
+"138","Arkansas",121552
+"139","Arkansas",17702
+"140","Arkansas",12204
+"141","Arkansas",97177
+"142","Arkansas",18102
+"143","Arkansas",44196
+"144","Arkansas",22084
+"145","Arkansas",33426
+"146","Arkansas",13300
+"147","Arkansas",37052
+"148","Arkansas",13445
+"149","Arkansas",17338
+"150","Arkansas",71565
+"151","Arkansas",26141
+"152","Arkansas",6996
+"153","Arkansas",16779
+"154","Arkansas",9650
+"155","Arkansas",13820
+"156","Arkansas",12472
+"157","Arkansas",21714
+"158","Arkansas",71645
+"159","Arkansas",15767
+"160","Arkansas",16185
+"161","Arkansas",43908
+"162","Arkansas",43738
+"163","Arkansas",7399
+"164","Arkansas",8970
+"165","Arkansas",8558
+"166","Arkansas",7913
+"167","Arkansas",24358
+"168","Arkansas",10189
+"169","Arkansas",19513
+"170","Arkansas",10824
+"171","Arkansas",24040
+"172","Arkansas",20216
+"173","Arkansas",63390
+"174","Arkansas",8291
+"175","Arkansas",392664
+"176","Arkansas",17469
+"177","Arkansas",26589
+"178","Arkansas",117460
+"179","Arkansas",10513
+"180","Arkansas",7869
+"181","Arkansas",127780
+"182","Arkansas",17290
+"183","Arkansas",16912
+"184","Arkansas",12456
+"185","Arkansas",40144
+"186","Arkansas",16771
+"187","Arkansas",225477
+"188","Arkansas",79161
+"189","Arkansas",6741
+"190","Arkansas",21713
+"191","California",39144818
+"192","California",1638215
+"193","California",1110
+"194","California",37001
+"195","California",225411
+"196","California",44828
+"197","California",21482
+"198","California",1126745
+"199","California",27254
+"200","California",184452
+"201","California",974861
+"202","California",28017
+"203","California",135727
+"204","California",180191
+"205","California",18260
+"206","California",882176
+"207","California",150965
+"208","California",64591
+"209","California",31345
+"210","California",10170292
+"211","California",154998
+"212","California",261221
+"213","California",17531
+"214","California",87649
+"215","California",268455
+"216","California",8965
+"217","California",13909
+"218","California",433898
+"219","California",142456
+"220","California",98877
+"221","California",3169776
+"222","California",375391
+"223","California",18409
+"224","California",2361026
+"225","California",1501335
+"226","California",58792
+"227","California",2128133
+"228","California",3299521
+"229","California",864816
+"230","California",726106
+"231","California",281401
+"232","California",765135
+"233","California",444769
+"234","California",1918044
+"235","California",274146
+"236","California",179533
+"237","California",2967
+"238","California",43554
+"239","California",436092
+"240","California",502146
+"241","California",538388
+"242","California",96463
+"243","California",63308
+"244","California",13069
+"245","California",459863
+"246","California",53709
+"247","California",850536
+"248","California",213016
+"249","California",74492
+"250","Colorado",5456574
+"251","Colorado",491337
+"252","Colorado",16496
+"253","Colorado",631096
+"254","Colorado",12352
+"255","Colorado",3615
+"256","Colorado",5830
+"257","Colorado",319372
+"258","Colorado",65065
+"259","Colorado",18658
+"260","Colorado",1829
+"261","Colorado",9303
+"262","Colorado",8130
+"263","Colorado",3584
+"264","Colorado",5562
+"265","Colorado",4445
+"266","Colorado",29979
+"267","Colorado",682545
+"268","Colorado",1978
+"269","Colorado",322387
+"270","Colorado",53605
+"271","Colorado",24735
+"272","Colorado",674471
+"273","Colorado",46692
+"274","Colorado",58095
+"275","Colorado",5828
+"276","Colorado",14615
+"277","Colorado",16067
+"278","Colorado",774
+"279","Colorado",6492
+"280","Colorado",1356
+"281","Colorado",565524
+"282","Colorado",1423
+"283","Colorado",7758
+"284","Colorado",7485
+"285","Colorado",54688
+"286","Colorado",333577
+"287","Colorado",14058
+"288","Colorado",5557
+"289","Colorado",22036
+"290","Colorado",148513
+"291","Colorado",726
+"292","Colorado",12937
+"293","Colorado",26168
+"294","Colorado",40946
+"295","Colorado",28360
+"296","Colorado",18343
+"297","Colorado",4691
+"298","Colorado",16510
+"299","Colorado",4349
+"300","Colorado",17787
+"301","Colorado",11954
+"302","Colorado",163591
+"303","Colorado",6571
+"304","Colorado",11543
+"305","Colorado",24130
+"306","Colorado",6251
+"307","Colorado",701
+"308","Colorado",7879
+"309","Colorado",2399
+"310","Colorado",30257
+"311","Colorado",23385
+"312","Colorado",4864
+"313","Colorado",285174
+"314","Colorado",10146
+"315","Connecticut",3590886
+"316","Connecticut",948053
+"317","Connecticut",895841
+"318","Connecticut",183603
+"319","Connecticut",164063
+"320","Connecticut",859470
+"321","Connecticut",271863
+"322","Connecticut",151420
+"323","Connecticut",116573
+"324","Delaware",945934
+"325","Delaware",173533
+"326","Delaware",556779
+"327","Delaware",215622
+"328","District of Columbia",672228
+"329","District of Columbia",672228
+"330","Florida",20271272
+"331","Florida",259964
+"332","Florida",27420
+"333","Florida",181635
+"334","Florida",26928
+"335","Florida",568088
+"336","Florida",1896425
+"337","Florida",14462
+"338","Florida",173115
+"339","Florida",141058
+"340","Florida",203967
+"341","Florida",357305
+"342","Florida",68348
+"343","Florida",35458
+"344","Florida",16203
+"345","Florida",913010
+"346","Florida",311003
+"347","Florida",105392
+"348","Florida",11761
+"349","Florida",46036
+"350","Florida",17199
+"351","Florida",13670
+"352","Florida",15871
+"353","Florida",14295
+"354","Florida",27502
+"355","Florida",39119
+"356","Florida",178439
+"357","Florida",99491
+"358","Florida",1349050
+"359","Florida",19324
+"360","Florida",147919
+"361","Florida",48599
+"362","Florida",14081
+"363","Florida",8663
+"364","Florida",325875
+"365","Florida",701982
+"366","Florida",286272
+"367","Florida",39832
+"368","Florida",8331
+"369","Florida",18408
+"370","Florida",363369
+"371","Florida",343254
+"372","Florida",156283
+"373","Florida",2693117
+"374","Florida",77482
+"375","Florida",78444
+"376","Florida",198664
+"377","Florida",39469
+"378","Florida",1288126
+"379","Florida",323993
+"380","Florida",1422789
+"381","Florida",497909
+"382","Florida",949827
+"383","Florida",650092
+"384","Florida",72023
+"385","Florida",226640
+"386","Florida",298563
+"387","Florida",167040
+"388","Florida",405549
+"389","Florida",449144
+"390","Florida",118891
+"391","Florida",43760
+"392","Florida",22493
+"393","Florida",15234
+"394","Florida",517887
+"395","Florida",31535
+"396","Florida",63508
+"397","Florida",24687
+"398","Georgia",10214860
+"399","Georgia",18454
+"400","Georgia",8398
+"401","Georgia",11299
+"402","Georgia",3180
+"403","Georgia",45459
+"404","Georgia",18495
+"405","Georgia",75370
+"406","Georgia",102747
+"407","Georgia",17403
+"408","Georgia",18963
+"409","Georgia",153721
+"410","Georgia",12243
+"411","Georgia",18455
+"412","Georgia",15658
+"413","Georgia",35137
+"414","Georgia",72651
+"415","Georgia",22745
+"416","Georgia",23593
+"417","Georgia",6479
+"418","Georgia",52102
+"419","Georgia",10886
+"420","Georgia",114545
+"421","Georgia",66050
+"422","Georgia",12965
+"423","Georgia",286956
+"424","Georgia",11368
+"425","Georgia",24922
+"426","Georgia",235900
+"427","Georgia",123912
+"428","Georgia",3141
+"429","Georgia",273955
+"430","Georgia",6893
+"431","Georgia",741334
+"432","Georgia",43108
+"433","Georgia",45844
+"434","Georgia",144052
+"435","Georgia",17124
+"436","Georgia",138427
+"437","Georgia",12388
+"438","Georgia",22881
+"439","Georgia",16264
+"440","Georgia",23312
+"441","Georgia",27174
+"442","Georgia",734871
+"443","Georgia",20882
+"444","Georgia",14035
+"445","Georgia",91332
+"446","Georgia",140733
+"447","Georgia",10575
+"448","Georgia",4040
+"449","Georgia",57106
+"450","Georgia",19364
+"451","Georgia",22708
+"452","Georgia",10787
+"453","Georgia",24303
+"454","Georgia",110714
+"455","Georgia",96504
+"456","Georgia",212438
+"457","Georgia",22311
+"458","Georgia",1010562
+"459","Georgia",29400
+"460","Georgia",3065
+"461","Georgia",83579
+"462","Georgia",56574
+"463","Georgia",25205
+"464","Georgia",16710
+"465","Georgia",895823
+"466","Georgia",43996
+"467","Georgia",193535
+"468","Georgia",8551
+"469","Georgia",28854
+"470","Georgia",33381
+"471","Georgia",25534
+"472","Georgia",11539
+"473","Georgia",217739
+"474","Georgia",150033
+"475","Georgia",9245
+"476","Georgia",63360
+"477","Georgia",13635
+"478","Georgia",14920
+"479","Georgia",16106
+"480","Georgia",8957
+"481","Georgia",9656
+"482","Georgia",28494
+"483","Georgia",18201
+"484","Georgia",10312
+"485","Georgia",47731
+"486","Georgia",29202
+"487","Georgia",62467
+"488","Georgia",7673
+"489","Georgia",17731
+"490","Georgia",112865
+"491","Georgia",31408
+"492","Georgia",21540
+"493","Georgia",13969
+"494","Georgia",13632
+"495","Georgia",28441
+"496","Georgia",8761
+"497","Georgia",21190
+"498","Georgia",5854
+"499","Georgia",22574
+"500","Georgia",27103
+"501","Georgia",8951
+"502","Georgia",18046
+"503","Georgia",39565
+"504","Georgia",200579
+"505","Georgia",105473
+"506","Georgia",35965
+"507","Georgia",14871
+"508","Georgia",152238
+"509","Georgia",26720
+"510","Georgia",30309
+"511","Georgia",19103
+"512","Georgia",17941
+"513","Georgia",41524
+"514","Georgia",11396
+"515","Georgia",21353
+"516","Georgia",2302
+"517","Georgia",16281
+"518","Georgia",7193
+"519","Georgia",201793
+"520","Georgia",88856
+"521","Georgia",5168
+"522","Georgia",14162
+"523","Georgia",8647
+"524","Georgia",64051
+"525","Georgia",25586
+"526","Georgia",5851
+"527","Georgia",30779
+"528","Georgia",6337
+"529","Georgia",1639
+"530","Georgia",25229
+"531","Georgia",8330
+"532","Georgia",16400
+"533","Georgia",9113
+"534","Georgia",45063
+"535","Georgia",40764
+"536","Georgia",27241
+"537","Georgia",11182
+"538","Georgia",6785
+"539","Georgia",69763
+"540","Georgia",8214
+"541","Georgia",8390
+"542","Georgia",22267
+"543","Georgia",26368
+"544","Georgia",68066
+"545","Georgia",88399
+"546","Georgia",35370
+"547","Georgia",5460
+"548","Georgia",20816
+"549","Georgia",29534
+"550","Georgia",2648
+"551","Georgia",7903
+"552","Georgia",28319
+"553","Georgia",104216
+"554","Georgia",8857
+"555","Georgia",9867
+"556","Georgia",9155
+"557","Georgia",20699
+"558","Hawaii",1431603
+"559","Hawaii",196428
+"560","Hawaii",998714
+"561","Hawaii",89
+"562","Hawaii",71735
+"563","Hawaii",164637
+"564","Idaho",1654930
+"565","Idaho",434211
+"566","Idaho",3843
+"567","Idaho",83744
+"568","Idaho",5922
+"569","Idaho",9052
+"570","Idaho",44990
+"571","Idaho",21592
+"572","Idaho",7058
+"573","Idaho",41859
+"574","Idaho",110089
+"575","Idaho",11318
+"576","Idaho",2501
+"577","Idaho",1066
+"578","Idaho",207478
+"579","Idaho",6770
+"580","Idaho",23506
+"581","Idaho",880
+"582","Idaho",8496
+"583","Idaho",4087
+"584","Idaho",25876
+"585","Idaho",13074
+"586","Idaho",12819
+"587","Idaho",16852
+"588","Idaho",15284
+"589","Idaho",16272
+"590","Idaho",27157
+"591","Idaho",22814
+"592","Idaho",150346
+"593","Idaho",38778
+"594","Idaho",7735
+"595","Idaho",3789
+"596","Idaho",5297
+"597","Idaho",38273
+"598","Idaho",20461
+"599","Idaho",40048
+"600","Idaho",4281
+"601","Idaho",11310
+"602","Idaho",22896
+"603","Idaho",7648
+"604","Idaho",12432
+"605","Idaho",10564
+"606","Idaho",82375
+"607","Idaho",10103
+"608","Idaho",9984
+"609","Illinois",12859995
+"610","Illinois",67013
+"611","Illinois",6780
+"612","Illinois",16950
+"613","Illinois",53585
+"614","Illinois",6829
+"615","Illinois",33587
+"616","Illinois",4899
+"617","Illinois",14616
+"618","Illinois",12847
+"619","Illinois",208861
+"620","Illinois",33642
+"621","Illinois",15979
+"622","Illinois",13428
+"623","Illinois",37786
+"624","Illinois",52521
+"625","Illinois",5238216
+"626","Illinois",19414
+"627","Illinois",10898
+"628","Illinois",104352
+"629","Illinois",16247
+"630","Illinois",19823
+"631","Illinois",933736
+"632","Illinois",17664
+"633","Illinois",6534
+"634","Illinois",34371
+"635","Illinois",22043
+"636","Illinois",13736
+"637","Illinois",39485
+"638","Illinois",35699
+"639","Illinois",5265
+"640","Illinois",13241
+"641","Illinois",50541
+"642","Illinois",8200
+"643","Illinois",18543
+"644","Illinois",4135
+"645","Illinois",6995
+"646","Illinois",49489
+"647","Illinois",28672
+"648","Illinois",59362
+"649","Illinois",9607
+"650","Illinois",38353
+"651","Illinois",22372
+"652","Illinois",22086
+"653","Illinois",12762
+"654","Illinois",530847
+"655","Illinois",110879
+"656","Illinois",123355
+"657","Illinois",51441
+"658","Illinois",703910
+"659","Illinois",111333
+"660","Illinois",16491
+"661","Illinois",34584
+"662","Illinois",36671
+"663","Illinois",29494
+"664","Illinois",31333
+"665","Illinois",307343
+"666","Illinois",173166
+"667","Illinois",107303
+"668","Illinois",46045
+"669","Illinois",266209
+"670","Illinois",38339
+"671","Illinois",11982
+"672","Illinois",13701
+"673","Illinois",14766
+"674","Illinois",12444
+"675","Illinois",15858
+"676","Illinois",33879
+"677","Illinois",28898
+"678","Illinois",34828
+"679","Illinois",14931
+"680","Illinois",51659
+"681","Illinois",186221
+"682","Illinois",21543
+"683","Illinois",16387
+"684","Illinois",15989
+"685","Illinois",4226
+"686","Illinois",5678
+"687","Illinois",5644
+"688","Illinois",32852
+"689","Illinois",16029
+"690","Illinois",146133
+"691","Illinois",264052
+"692","Illinois",24548
+"693","Illinois",198712
+"694","Illinois",7032
+"695","Illinois",5092
+"696","Illinois",21775
+"697","Illinois",5788
+"698","Illinois",45749
+"699","Illinois",134800
+"700","Illinois",17408
+"701","Illinois",79282
+"702","Illinois",11542
+"703","Illinois",17527
+"704","Illinois",14270
+"705","Illinois",16423
+"706","Illinois",14327
+"707","Illinois",57079
+"708","Illinois",687263
+"709","Illinois",67466
+"710","Illinois",287078
+"711","Illinois",39227
+"712","Indiana",6619680
+"713","Indiana",34980
+"714","Indiana",368450
+"715","Indiana",81162
+"716","Indiana",8681
+"717","Indiana",12298
+"718","Indiana",63344
+"719","Indiana",14977
+"720","Indiana",19856
+"721","Indiana",37979
+"722","Indiana",115371
+"723","Indiana",26503
+"724","Indiana",32609
+"725","Indiana",10483
+"726","Indiana",32906
+"727","Indiana",49455
+"728","Indiana",26521
+"729","Indiana",42589
+"730","Indiana",116852
+"731","Indiana",42461
+"732","Indiana",203474
+"733","Indiana",23434
+"734","Indiana",76778
+"735","Indiana",16591
+"736","Indiana",22872
+"737","Indiana",20315
+"738","Indiana",33775
+"739","Indiana",67979
+"740","Indiana",32441
+"741","Indiana",309697
+"742","Indiana",72520
+"743","Indiana",39578
+"744","Indiana",158192
+"745","Indiana",48985
+"746","Indiana",82556
+"747","Indiana",36630
+"748","Indiana",44069
+"749","Indiana",33470
+"750","Indiana",21121
+"751","Indiana",32416
+"752","Indiana",27897
+"753","Indiana",149633
+"754","Indiana",37927
+"755","Indiana",78620
+"756","Indiana",38809
+"757","Indiana",487865
+"758","Indiana",110884
+"759","Indiana",45495
+"760","Indiana",129723
+"761","Indiana",939020
+"762","Indiana",46857
+"763","Indiana",10226
+"764","Indiana",35862
+"765","Indiana",144705
+"766","Indiana",38227
+"767","Indiana",69648
+"768","Indiana",14008
+"769","Indiana",47733
+"770","Indiana",5938
+"771","Indiana",19605
+"772","Indiana",20872
+"773","Indiana",16901
+"774","Indiana",19347
+"775","Indiana",12594
+"776","Indiana",167688
+"777","Indiana",25512
+"778","Indiana",12889
+"779","Indiana",37585
+"780","Indiana",25172
+"781","Indiana",28701
+"782","Indiana",16672
+"783","Indiana",268441
+"784","Indiana",23744
+"785","Indiana",44478
+"786","Indiana",20715
+"787","Indiana",22958
+"788","Indiana",34372
+"789","Indiana",20928
+"790","Indiana",10524
+"791","Indiana",185826
+"792","Indiana",15267
+"793","Indiana",7182
+"794","Indiana",181877
+"795","Indiana",15692
+"796","Indiana",107896
+"797","Indiana",32138
+"798","Indiana",8269
+"799","Indiana",61897
+"800","Indiana",27827
+"801","Indiana",67001
+"802","Indiana",27964
+"803","Indiana",24293
+"804","Indiana",33406
+"805","Iowa",3123899
+"806","Iowa",7228
+"807","Iowa",3796
+"808","Iowa",13886
+"809","Iowa",12529
+"810","Iowa",5773
+"811","Iowa",25658
+"812","Iowa",133455
+"813","Iowa",26643
+"814","Iowa",24722
+"815","Iowa",21062
+"816","Iowa",20493
+"817","Iowa",14915
+"818","Iowa",9818
+"819","Iowa",20498
+"820","Iowa",13427
+"821","Iowa",18340
+"822","Iowa",43017
+"823","Iowa",11574
+"824","Iowa",12097
+"825","Iowa",9259
+"826","Iowa",16507
+"827","Iowa",17644
+"828","Iowa",47768
+"829","Iowa",17094
+"830","Iowa",80133
+"831","Iowa",8769
+"832","Iowa",8220
+"833","Iowa",17403
+"834","Iowa",40055
+"835","Iowa",17111
+"836","Iowa",97125
+"837","Iowa",9769
+"838","Iowa",20257
+"839","Iowa",15960
+"840","Iowa",10295
+"841","Iowa",6906
+"842","Iowa",9027
+"843","Iowa",12435
+"844","Iowa",10676
+"845","Iowa",15190
+"846","Iowa",10974
+"847","Iowa",17367
+"848","Iowa",14265
+"849","Iowa",19950
+"850","Iowa",9410
+"851","Iowa",9555
+"852","Iowa",7028
+"853","Iowa",16401
+"854","Iowa",19444
+"855","Iowa",36827
+"856","Iowa",17555
+"857","Iowa",144251
+"858","Iowa",20466
+"859","Iowa",10163
+"860","Iowa",15165
+"861","Iowa",35089
+"862","Iowa",219916
+"863","Iowa",11185
+"864","Iowa",8682
+"865","Iowa",11745
+"866","Iowa",15753
+"867","Iowa",22324
+"868","Iowa",33294
+"869","Iowa",40746
+"870","Iowa",14844
+"871","Iowa",10832
+"872","Iowa",8979
+"873","Iowa",7973
+"874","Iowa",10234
+"875","Iowa",43011
+"876","Iowa",13984
+"877","Iowa",6154
+"878","Iowa",15527
+"879","Iowa",9133
+"880","Iowa",24800
+"881","Iowa",7008
+"882","Iowa",467711
+"883","Iowa",93671
+"884","Iowa",18550
+"885","Iowa",5068
+"886","Iowa",10021
+"887","Iowa",172126
+"888","Iowa",11927
+"889","Iowa",34937
+"890","Iowa",96021
+"891","Iowa",17337
+"892","Iowa",6205
+"893","Iowa",12469
+"894","Iowa",7344
+"895","Iowa",35173
+"896","Iowa",48626
+"897","Iowa",22247
+"898","Iowa",6385
+"899","Iowa",37071
+"900","Iowa",10609
+"901","Iowa",20709
+"902","Iowa",102782
+"903","Iowa",7569
+"904","Iowa",12773
+"905","Kansas",2911641
+"906","Kansas",12717
+"907","Kansas",7808
+"908","Kansas",16398
+"909","Kansas",4823
+"910","Kansas",27103
+"911","Kansas",14712
+"912","Kansas",9776
+"913","Kansas",66741
+"914","Kansas",2679
+"915","Kansas",3402
+"916","Kansas",20533
+"917","Kansas",2679
+"918","Kansas",2096
+"919","Kansas",8347
+"920","Kansas",9219
+"921","Kansas",8384
+"922","Kansas",1843
+"923","Kansas",35788
+"924","Kansas",39217
+"925","Kansas",2932
+"926","Kansas",19303
+"927","Kansas",7797
+"928","Kansas",118053
+"929","Kansas",2968
+"930","Kansas",2605
+"931","Kansas",29029
+"932","Kansas",6343
+"933","Kansas",37118
+"934","Kansas",34536
+"935","Kansas",25609
+"936","Kansas",37030
+"937","Kansas",2640
+"938","Kansas",2591
+"939","Kansas",7733
+"940","Kansas",6133
+"941","Kansas",1330
+"942","Kansas",6244
+"943","Kansas",2474
+"944","Kansas",5817
+"945","Kansas",35073
+"946","Kansas",4064
+"947","Kansas",1893
+"948","Kansas",13338
+"949","Kansas",18930
+"950","Kansas",2970
+"951","Kansas",580159
+"952","Kansas",3956
+"953","Kansas",7687
+"954","Kansas",2564
+"955","Kansas",20803
+"956","Kansas",1670
+"957","Kansas",79315
+"958","Kansas",3105
+"959","Kansas",9536
+"960","Kansas",2825
+"961","Kansas",33339
+"962","Kansas",28941
+"963","Kansas",12103
+"964","Kansas",9936
+"965","Kansas",4330
+"966","Kansas",32553
+"967","Kansas",6282
+"968","Kansas",33314
+"969","Kansas",5645
+"970","Kansas",3007
+"971","Kansas",10227
+"972","Kansas",16346
+"973","Kansas",3005
+"974","Kansas",5550
+"975","Kansas",15847
+"976","Kansas",3683
+"977","Kansas",5975
+"978","Kansas",6838
+"979","Kansas",5428
+"980","Kansas",23298
+"981","Kansas",9691
+"982","Kansas",2506
+"983","Kansas",63718
+"984","Kansas",4725
+"985","Kansas",9977
+"986","Kansas",75247
+"987","Kansas",5174
+"988","Kansas",3130
+"989","Kansas",7039
+"990","Kansas",55691
+"991","Kansas",4964
+"992","Kansas",511574
+"993","Kansas",23152
+"994","Kansas",178725
+"995","Kansas",2512
+"996","Kansas",5983
+"997","Kansas",3704
+"998","Kansas",4236
+"999","Kansas",2072
+"1000","Kansas",5806
+"1001","Kansas",23535
+"1002","Kansas",7904
+"1003","Kansas",2927
+"1004","Kansas",6951
+"1005","Kansas",1518
+"1006","Kansas",5598
+"1007","Kansas",2157
+"1008","Kansas",8856
+"1009","Kansas",3115
+"1010","Kansas",163369
+"1011","Kentucky",4425092
+"1012","Kentucky",19027
+"1013","Kentucky",20640
+"1014","Kentucky",21979
+"1015","Kentucky",8212
+"1016","Kentucky",43570
+"1017","Kentucky",12228
+"1018","Kentucky",27337
+"1019","Kentucky",127712
+"1020","Kentucky",20116
+"1021","Kentucky",48325
+"1022","Kentucky",29809
+"1023","Kentucky",8321
+"1024","Kentucky",13484
+"1025","Kentucky",20018
+"1026","Kentucky",78702
+"1027","Kentucky",12938
+"1028","Kentucky",12681
+"1029","Kentucky",38343
+"1030","Kentucky",92066
+"1031","Kentucky",4874
+"1032","Kentucky",10699
+"1033","Kentucky",27158
+"1034","Kentucky",15808
+"1035","Kentucky",73309
+"1036","Kentucky",35757
+"1037","Kentucky",21013
+"1038","Kentucky",10174
+"1039","Kentucky",9183
+"1040","Kentucky",6759
+"1041","Kentucky",99259
+"1042","Kentucky",12007
+"1043","Kentucky",7648
+"1044","Kentucky",14375
+"1045","Kentucky",314488
+"1046","Kentucky",14637
+"1047","Kentucky",37756
+"1048","Kentucky",50375
+"1049","Kentucky",6238
+"1050","Kentucky",8636
+"1051","Kentucky",17237
+"1052","Kentucky",24757
+"1053","Kentucky",37421
+"1054","Kentucky",26221
+"1055","Kentucky",11010
+"1056","Kentucky",36068
+"1057","Kentucky",8692
+"1058","Kentucky",106439
+"1059","Kentucky",27703
+"1060","Kentucky",18763
+"1061","Kentucky",18454
+"1062","Kentucky",46407
+"1063","Kentucky",15620
+"1064","Kentucky",4612
+"1065","Kentucky",46222
+"1066","Kentucky",13352
+"1067","Kentucky",763623
+"1068","Kentucky",51961
+"1069","Kentucky",23175
+"1070","Kentucky",165012
+"1071","Kentucky",15693
+"1072","Kentucky",31730
+"1073","Kentucky",14241
+"1074","Kentucky",60094
+"1075","Kentucky",15745
+"1076","Kentucky",6752
+"1077","Kentucky",10711
+"1078","Kentucky",23123
+"1079","Kentucky",13682
+"1080","Kentucky",24463
+"1081","Kentucky",9316
+"1082","Kentucky",26910
+"1083","Kentucky",8306
+"1084","Kentucky",65018
+"1085","Kentucky",17878
+"1086","Kentucky",9512
+"1087","Kentucky",87824
+"1088","Kentucky",12808
+"1089","Kentucky",19365
+"1090","Kentucky",31101
+"1091","Kentucky",12307
+"1092","Kentucky",17099
+"1093","Kentucky",27924
+"1094","Kentucky",6358
+"1095","Kentucky",21407
+"1096","Kentucky",9909
+"1097","Kentucky",10667
+"1098","Kentucky",27608
+"1099","Kentucky",13275
+"1100","Kentucky",31183
+"1101","Kentucky",45126
+"1102","Kentucky",7131
+"1103","Kentucky",24216
+"1104","Kentucky",64875
+"1105","Kentucky",10730
+"1106","Kentucky",4461
+"1107","Kentucky",14408
+"1108","Kentucky",27565
+"1109","Kentucky",61792
+"1110","Kentucky",12269
+"1111","Kentucky",63782
+"1112","Kentucky",2138
+"1113","Kentucky",16942
+"1114","Kentucky",23892
+"1115","Kentucky",17662
+"1116","Kentucky",52420
+"1117","Kentucky",45632
+"1118","Kentucky",18006
+"1119","Kentucky",17894
+"1120","Kentucky",25420
+"1121","Kentucky",12531
+"1122","Kentucky",14233
+"1123","Kentucky",8769
+"1124","Kentucky",15050
+"1125","Kentucky",122851
+"1126","Kentucky",12063
+"1127","Kentucky",20464
+"1128","Kentucky",13170
+"1129","Kentucky",36129
+"1130","Kentucky",7259
+"1131","Kentucky",25793
+"1132","Louisiana",4670724
+"1133","Louisiana",62577
+"1134","Louisiana",25683
+"1135","Louisiana",119455
+"1136","Louisiana",22842
+"1137","Louisiana",41103
+"1138","Louisiana",36462
+"1139","Louisiana",13786
+"1140","Louisiana",125175
+"1141","Louisiana",251460
+"1142","Louisiana",198788
+"1143","Louisiana",9993
+"1144","Louisiana",6817
+"1145","Louisiana",10147
+"1146","Louisiana",16295
+"1147","Louisiana",20142
+"1148","Louisiana",27052
+"1149","Louisiana",446753
+"1150","Louisiana",7307
+"1151","Louisiana",19696
+"1152","Louisiana",33743
+"1153","Louisiana",20410
+"1154","Louisiana",22343
+"1155","Louisiana",74103
+"1156","Louisiana",33095
+"1157","Louisiana",15858
+"1158","Louisiana",436275
+"1159","Louisiana",31439
+"1160","Louisiana",240098
+"1161","Louisiana",98325
+"1162","Louisiana",14974
+"1163","Louisiana",47774
+"1164","Louisiana",137788
+"1165","Louisiana",11514
+"1166","Louisiana",26395
+"1167","Louisiana",39179
+"1168","Louisiana",389617
+"1169","Louisiana",156761
+"1170","Louisiana",23495
+"1171","Louisiana",22251
+"1172","Louisiana",132141
+"1173","Louisiana",8593
+"1174","Louisiana",20523
+"1175","Louisiana",24186
+"1176","Louisiana",45408
+"1177","Louisiana",52812
+"1178","Louisiana",10567
+"1179","Louisiana",21567
+"1180","Louisiana",43626
+"1181","Louisiana",83848
+"1182","Louisiana",53835
+"1183","Louisiana",52810
+"1184","Louisiana",250088
+"1185","Louisiana",128755
+"1186","Louisiana",4740
+"1187","Louisiana",113972
+"1188","Louisiana",22477
+"1189","Louisiana",59875
+"1190","Louisiana",50803
+"1191","Louisiana",46371
+"1192","Louisiana",40021
+"1193","Louisiana",25490
+"1194","Louisiana",11293
+"1195","Louisiana",15385
+"1196","Louisiana",14568
+"1197","Maine",1329328
+"1198","Maine",107233
+"1199","Maine",68628
+"1200","Maine",289977
+"1201","Maine",29991
+"1202","Maine",54659
+"1203","Maine",119980
+"1204","Maine",39855
+"1205","Maine",33969
+"1206","Maine",57202
+"1207","Maine",152692
+"1208","Maine",16931
+"1209","Maine",35149
+"1210","Maine",51113
+"1211","Maine",39155
+"1212","Maine",31625
+"1213","Maine",201169
+"1214","Maryland",6006401
+"1215","Maryland",72528
+"1216","Maryland",564195
+"1217","Maryland",831128
+"1218","Maryland",90595
+"1219","Maryland",32579
+"1220","Maryland",167627
+"1221","Maryland",102382
+"1222","Maryland",156118
+"1223","Maryland",32384
+"1224","Maryland",245322
+"1225","Maryland",29460
+"1226","Maryland",250290
+"1227","Maryland",313414
+"1228","Maryland",19787
+"1229","Maryland",1040116
+"1230","Maryland",909535
+"1231","Maryland",48904
+"1232","Maryland",111413
+"1233","Maryland",25768
+"1234","Maryland",37512
+"1235","Maryland",149585
+"1236","Maryland",102370
+"1237","Maryland",51540
+"1238","Maryland",621849
+"1239","Massachusetts",6794422
+"1240","Massachusetts",214333
+"1241","Massachusetts",127828
+"1242","Massachusetts",556772
+"1243","Massachusetts",17299
+"1244","Massachusetts",776043
+"1245","Massachusetts",70601
+"1246","Massachusetts",470690
+"1247","Massachusetts",161292
+"1248","Massachusetts",1585139
+"1249","Massachusetts",10925
+"1250","Massachusetts",696023
+"1251","Massachusetts",510393
+"1252","Massachusetts",778121
+"1253","Massachusetts",818963
+"1254","Michigan",9922576
+"1255","Michigan",10349
+"1256","Michigan",9383
+"1257","Michigan",114625
+"1258","Michigan",28803
+"1259","Michigan",23154
+"1260","Michigan",15261
+"1261","Michigan",8575
+"1262","Michigan",59314
+"1263","Michigan",105659
+"1264","Michigan",17457
+"1265","Michigan",154636
+"1266","Michigan",43664
+"1267","Michigan",134314
+"1268","Michigan",51657
+"1269","Michigan",26238
+"1270","Michigan",25427
+"1271","Michigan",38033
+"1272","Michigan",30553
+"1273","Michigan",77390
+"1274","Michigan",13801
+"1275","Michigan",36377
+"1276","Michigan",25788
+"1277","Michigan",108801
+"1278","Michigan",33161
+"1279","Michigan",410849
+"1280","Michigan",25164
+"1281","Michigan",15431
+"1282","Michigan",91636
+"1283","Michigan",41540
+"1284","Michigan",45941
+"1285","Michigan",36380
+"1286","Michigan",31883
+"1287","Michigan",286085
+"1288","Michigan",64223
+"1289","Michigan",25345
+"1290","Michigan",11348
+"1291","Michigan",70698
+"1292","Michigan",159494
+"1293","Michigan",260263
+"1294","Michigan",17260
+"1295","Michigan",636369
+"1296","Michigan",2168
+"1297","Michigan",11424
+"1298","Michigan",88373
+"1299","Michigan",21981
+"1300","Michigan",98573
+"1301","Michigan",187316
+"1302","Michigan",6415
+"1303","Michigan",10890
+"1304","Michigan",864840
+"1305","Michigan",24461
+"1306","Michigan",67215
+"1307","Michigan",28783
+"1308","Michigan",43067
+"1309","Michigan",23548
+"1310","Michigan",83632
+"1311","Michigan",14903
+"1312","Michigan",149568
+"1313","Michigan",62945
+"1314","Michigan",9259
+"1315","Michigan",172790
+"1316","Michigan",47948
+"1317","Michigan",1242304
+"1318","Michigan",26105
+"1319","Michigan",20937
+"1320","Michigan",6007
+"1321","Michigan",23058
+"1322","Michigan",8251
+"1323","Michigan",24253
+"1324","Michigan",279955
+"1325","Michigan",12841
+"1326","Michigan",23898
+"1327","Michigan",193307
+"1328","Michigan",159875
+"1329","Michigan",61018
+"1330","Michigan",41475
+"1331","Michigan",8173
+"1332","Michigan",68619
+"1333","Michigan",53777
+"1334","Michigan",75077
+"1335","Michigan",358880
+"1336","Michigan",1759335
+"1337","Michigan",33003
+"1338","Minnesota",5489594
+"1339","Minnesota",15702
+"1340","Minnesota",344151
+"1341","Minnesota",33386
+"1342","Minnesota",45672
+"1343","Minnesota",39710
+"1344","Minnesota",5040
+"1345","Minnesota",65787
+"1346","Minnesota",25313
+"1347","Minnesota",35569
+"1348","Minnesota",98741
+"1349","Minnesota",28706
+"1350","Minnesota",12109
+"1351","Minnesota",54293
+"1352","Minnesota",62324
+"1353","Minnesota",8803
+"1354","Minnesota",5194
+"1355","Minnesota",11549
+"1356","Minnesota",63428
+"1357","Minnesota",414686
+"1358","Minnesota",20364
+"1359","Minnesota",37075
+"1360","Minnesota",14050
+"1361","Minnesota",20834
+"1362","Minnesota",30613
+"1363","Minnesota",46435
+"1364","Minnesota",5903
+"1365","Minnesota",1223149
+"1366","Minnesota",18773
+"1367","Minnesota",20655
+"1368","Minnesota",38429
+"1369","Minnesota",45435
+"1370","Minnesota",10079
+"1371","Minnesota",15837
+"1372","Minnesota",42542
+"1373","Minnesota",4424
+"1374","Minnesota",12841
+"1375","Minnesota",6856
+"1376","Minnesota",10631
+"1377","Minnesota",3923
+"1378","Minnesota",27663
+"1379","Minnesota",5771
+"1380","Minnesota",25673
+"1381","Minnesota",35932
+"1382","Minnesota",5457
+"1383","Minnesota",9423
+"1384","Minnesota",20022
+"1385","Minnesota",23102
+"1386","Minnesota",25788
+"1387","Minnesota",32775
+"1388","Minnesota",39116
+"1389","Minnesota",8413
+"1390","Minnesota",33347
+"1391","Minnesota",21770
+"1392","Minnesota",6678
+"1393","Minnesota",151436
+"1394","Minnesota",57716
+"1395","Minnesota",14219
+"1396","Minnesota",29069
+"1397","Minnesota",9271
+"1398","Minnesota",31533
+"1399","Minnesota",11041
+"1400","Minnesota",538133
+"1401","Minnesota",4055
+"1402","Minnesota",15471
+"1403","Minnesota",14892
+"1404","Minnesota",65400
+"1405","Minnesota",9600
+"1406","Minnesota",15770
+"1407","Minnesota",200431
+"1408","Minnesota",141660
+"1409","Minnesota",91705
+"1410","Minnesota",14875
+"1411","Minnesota",154708
+"1412","Minnesota",36755
+"1413","Minnesota",9796
+"1414","Minnesota",9340
+"1415","Minnesota",24257
+"1416","Minnesota",3401
+"1417","Minnesota",21239
+"1418","Minnesota",13875
+"1419","Minnesota",18989
+"1420","Minnesota",251597
+"1421","Minnesota",10952
+"1422","Minnesota",6396
+"1423","Minnesota",50885
+"1424","Minnesota",131311
+"1425","Minnesota",9875
+"1426","Mississippi",2992333
+"1427","Mississippi",31254
+"1428","Mississippi",37388
+"1429","Mississippi",12574
+"1430","Mississippi",19043
+"1431","Mississippi",8182
+"1432","Mississippi",33322
+"1433","Mississippi",14717
+"1434","Mississippi",10243
+"1435","Mississippi",17328
+"1436","Mississippi",8299
+"1437","Mississippi",9150
+"1438","Mississippi",16006
+"1439","Mississippi",20048
+"1440","Mississippi",24620
+"1441","Mississippi",28773
+"1442","Mississippi",19543
+"1443","Mississippi",173323
+"1444","Mississippi",75944
+"1445","Mississippi",7743
+"1446","Mississippi",23373
+"1447","Mississippi",13522
+"1448","Mississippi",21578
+"1449","Mississippi",46420
+"1450","Mississippi",201410
+"1451","Mississippi",242891
+"1452","Mississippi",18340
+"1453","Mississippi",8669
+"1454","Mississippi",1337
+"1455","Mississippi",23609
+"1456","Mississippi",141425
+"1457","Mississippi",16569
+"1458","Mississippi",7507
+"1459","Mississippi",11665
+"1460","Mississippi",68215
+"1461","Mississippi",9969
+"1462","Mississippi",53154
+"1463","Mississippi",60618
+"1464","Mississippi",78524
+"1465","Mississippi",12622
+"1466","Mississippi",22763
+"1467","Mississippi",85300
+"1468","Mississippi",30999
+"1469","Mississippi",34649
+"1470","Mississippi",59710
+"1471","Mississippi",103465
+"1472","Mississippi",25563
+"1473","Mississippi",35916
+"1474","Mississippi",35827
+"1475","Mississippi",10152
+"1476","Mississippi",29463
+"1477","Mississippi",21747
+"1478","Mississippi",11043
+"1479","Mississippi",49800
+"1480","Mississippi",34167
+"1481","Mississippi",55191
+"1482","Mississippi",12277
+"1483","Mississippi",39956
+"1484","Mississippi",30908
+"1485","Mississippi",25459
+"1486","Mississippi",7486
+"1487","Mississippi",149039
+"1488","Mississippi",28265
+"1489","Mississippi",4585
+"1490","Mississippi",27222
+"1491","Mississippi",16059
+"1492","Mississippi",18070
+"1493","Mississippi",27005
+"1494","Mississippi",14588
+"1495","Mississippi",28296
+"1496","Mississippi",22131
+"1497","Mississippi",19552
+"1498","Mississippi",10343
+"1499","Mississippi",28429
+"1500","Mississippi",14638
+"1501","Mississippi",47485
+"1502","Mississippi",48130
+"1503","Mississippi",20566
+"1504","Mississippi",9899
+"1505","Mississippi",9122
+"1506","Mississippi",18317
+"1507","Mississippi",12447
+"1508","Mississippi",27387
+"1509","Missouri",6083672
+"1510","Missouri",25378
+"1511","Missouri",17296
+"1512","Missouri",5306
+"1513","Missouri",26096
+"1514","Missouri",35829
+"1515","Missouri",11880
+"1516","Missouri",16446
+"1517","Missouri",18670
+"1518","Missouri",12182
+"1519","Missouri",174974
+"1520","Missouri",89100
+"1521","Missouri",42951
+"1522","Missouri",9014
+"1523","Missouri",44834
+"1524","Missouri",44237
+"1525","Missouri",78572
+"1526","Missouri",8992
+"1527","Missouri",6263
+"1528","Missouri",101603
+"1529","Missouri",13934
+"1530","Missouri",7589
+"1531","Missouri",83279
+"1532","Missouri",6801
+"1533","Missouri",235637
+"1534","Missouri",20609
+"1535","Missouri",76720
+"1536","Missouri",17642
+"1537","Missouri",24526
+"1538","Missouri",7595
+"1539","Missouri",16393
+"1540","Missouri",8253
+"1541","Missouri",12687
+"1542","Missouri",15593
+"1543","Missouri",13373
+"1544","Missouri",30895
+"1545","Missouri",102426
+"1546","Missouri",14858
+"1547","Missouri",6692
+"1548","Missouri",288072
+"1549","Missouri",10097
+"1550","Missouri",8615
+"1551","Missouri",21737
+"1552","Missouri",9201
+"1553","Missouri",4484
+"1554","Missouri",10139
+"1555","Missouri",40117
+"1556","Missouri",10125
+"1557","Missouri",687623
+"1558","Missouri",118596
+"1559","Missouri",224124
+"1560","Missouri",53951
+"1561","Missouri",3910
+"1562","Missouri",35473
+"1563","Missouri",32701
+"1564","Missouri",38180
+"1565","Missouri",10207
+"1566","Missouri",54696
+"1567","Missouri",12308
+"1568","Missouri",15028
+"1569","Missouri",22643
+"1570","Missouri",15335
+"1571","Missouri",12408
+"1572","Missouri",8963
+"1573","Missouri",28880
+"1574","Missouri",3694
+"1575","Missouri",25113
+"1576","Missouri",14036
+"1577","Missouri",15963
+"1578","Missouri",8583
+"1579","Missouri",11703
+"1580","Missouri",20171
+"1581","Missouri",18208
+"1582","Missouri",58615
+"1583","Missouri",22810
+"1584","Missouri",10953
+"1585","Missouri",13628
+"1586","Missouri",9409
+"1587","Missouri",17482
+"1588","Missouri",19183
+"1589","Missouri",42255
+"1590","Missouri",44794
+"1591","Missouri",18348
+"1592","Missouri",96096
+"1593","Missouri",31229
+"1594","Missouri",53221
+"1595","Missouri",4858
+"1596","Missouri",10196
+"1597","Missouri",25104
+"1598","Missouri",22810
+"1599","Missouri",6432
+"1600","Missouri",13802
+"1601","Missouri",385590
+"1602","Missouri",9440
+"1603","Missouri",17919
+"1604","Missouri",66520
+"1605","Missouri",1003362
+"1606","Missouri",23258
+"1607","Missouri",4436
+"1608","Missouri",4854
+"1609","Missouri",39008
+"1610","Missouri",8258
+"1611","Missouri",6128
+"1612","Missouri",29862
+"1613","Missouri",30943
+"1614","Missouri",6353
+"1615","Missouri",54592
+"1616","Missouri",25690
+"1617","Missouri",20826
+"1618","Missouri",33513
+"1619","Missouri",24788
+"1620","Missouri",13405
+"1621","Missouri",37483
+"1622","Missouri",2057
+"1623","Missouri",18268
+"1624","Missouri",315685
+"1625","Montana",1032949
+"1626","Montana",9300
+"1627","Montana",13242
+"1628","Montana",6577
+"1629","Montana",5689
+"1630","Montana",10408
+"1631","Montana",1180
+"1632","Montana",82278
+"1633","Montana",5767
+"1634","Montana",12135
+"1635","Montana",1760
+"1636","Montana",9625
+"1637","Montana",9139
+"1638","Montana",3190
+"1639","Montana",11427
+"1640","Montana",96165
+"1641","Montana",100739
+"1642","Montana",1314
+"1643","Montana",13647
+"1644","Montana",827
+"1645","Montana",3240
+"1646","Montana",16572
+"1647","Montana",11645
+"1648","Montana",1926
+"1649","Montana",29457
+"1650","Montana",66418
+"1651","Montana",2408
+"1652","Montana",19052
+"1653","Montana",1683
+"1654","Montana",7915
+"1655","Montana",1830
+"1656","Montana",4251
+"1657","Montana",114181
+"1658","Montana",4582
+"1659","Montana",15972
+"1660","Montana",475
+"1661","Montana",4169
+"1662","Montana",6184
+"1663","Montana",1773
+"1664","Montana",6840
+"1665","Montana",1160
+"1666","Montana",41373
+"1667","Montana",11960
+"1668","Montana",11476
+"1669","Montana",9398
+"1670","Montana",11336
+"1671","Montana",3687
+"1672","Montana",34622
+"1673","Montana",9486
+"1674","Montana",3634
+"1675","Montana",6104
+"1676","Montana",5087
+"1677","Montana",697
+"1678","Montana",7659
+"1679","Montana",2110
+"1680","Montana",1130
+"1681","Montana",157048
+"1682","Nebraska",1896190
+"1683","Nebraska",31587
+"1684","Nebraska",6414
+"1685","Nebraska",456
+"1686","Nebraska",788
+"1687","Nebraska",487
+"1688","Nebraska",5315
+"1689","Nebraska",11337
+"1690","Nebraska",2006
+"1691","Nebraska",2946
+"1692","Nebraska",48863
+"1693","Nebraska",6585
+"1694","Nebraska",8115
+"1695","Nebraska",25512
+"1696","Nebraska",8564
+"1697","Nebraska",3956
+"1698","Nebraska",5848
+"1699","Nebraska",10167
+"1700","Nebraska",6309
+"1701","Nebraska",10520
+"1702","Nebraska",9125
+"1703","Nebraska",10806
+"1704","Nebraska",20781
+"1705","Nebraska",9055
+"1706","Nebraska",23886
+"1707","Nebraska",1921
+"1708","Nebraska",5797
+"1709","Nebraska",36706
+"1710","Nebraska",550064
+"1711","Nebraska",1799
+"1712","Nebraska",5619
+"1713","Nebraska",2985
+"1714","Nebraska",2624
+"1715","Nebraska",4862
+"1716","Nebraska",21900
+"1717","Nebraska",1918
+"1718","Nebraska",2028
+"1719","Nebraska",1973
+"1720","Nebraska",641
+"1721","Nebraska",2429
+"1722","Nebraska",61680
+"1723","Nebraska",9190
+"1724","Nebraska",3452
+"1725","Nebraska",932
+"1726","Nebraska",2883
+"1727","Nebraska",10313
+"1728","Nebraska",732
+"1729","Nebraska",6409
+"1730","Nebraska",7263
+"1731","Nebraska",5173
+"1732","Nebraska",6585
+"1733","Nebraska",8063
+"1734","Nebraska",804
+"1735","Nebraska",3689
+"1736","Nebraska",8543
+"1737","Nebraska",306468
+"1738","Nebraska",35656
+"1739","Nebraska",777
+"1740","Nebraska",585
+"1741","Nebraska",475
+"1742","Nebraska",35039
+"1743","Nebraska",7787
+"1744","Nebraska",4854
+"1745","Nebraska",3595
+"1746","Nebraska",7046
+"1747","Nebraska",4329
+"1748","Nebraska",15984
+"1749","Nebraska",2659
+"1750","Nebraska",2944
+"1751","Nebraska",9296
+"1752","Nebraska",7208
+"1753","Nebraska",32847
+"1754","Nebraska",5202
+"1755","Nebraska",10829
+"1756","Nebraska",8094
+"1757","Nebraska",1381
+"1758","Nebraska",14282
+"1759","Nebraska",175692
+"1760","Nebraska",21016
+"1761","Nebraska",36261
+"1762","Nebraska",17110
+"1763","Nebraska",5220
+"1764","Nebraska",3091
+"1765","Nebraska",1260
+"1766","Nebraska",5937
+"1767","Nebraska",5163
+"1768","Nebraska",684
+"1769","Nebraska",7064
+"1770","Nebraska",4154
+"1771","Nebraska",20248
+"1772","Nebraska",9367
+"1773","Nebraska",3625
+"1774","Nebraska",750
+"1775","Nebraska",13806
+"1776","Nevada",2890845
+"1777","Nevada",24200
+"1778","Nevada",2114801
+"1779","Nevada",47710
+"1780","Nevada",51935
+"1781","Nevada",829
+"1782","Nevada",2016
+"1783","Nevada",17019
+"1784","Nevada",5903
+"1785","Nevada",5036
+"1786","Nevada",52585
+"1787","Nevada",4478
+"1788","Nevada",42477
+"1789","Nevada",6634
+"1790","Nevada",3987
+"1791","Nevada",446903
+"1792","Nevada",9811
+"1793","Nevada",54521
+"1794","New Hampshire",1330608
+"1795","New Hampshire",60641
+"1796","New Hampshire",47285
+"1797","New Hampshire",75909
+"1798","New Hampshire",31212
+"1799","New Hampshire",89320
+"1800","New Hampshire",406678
+"1801","New Hampshire",147994
+"1802","New Hampshire",301777
+"1803","New Hampshire",126825
+"1804","New Hampshire",42967
+"1805","New Jersey",8958013
+"1806","New Jersey",274219
+"1807","New Jersey",938506
+"1808","New Jersey",450226
+"1809","New Jersey",510923
+"1810","New Jersey",94727
+"1811","New Jersey",155854
+"1812","New Jersey",797434
+"1813","New Jersey",291479
+"1814","New Jersey",674836
+"1815","New Jersey",125488
+"1816","New Jersey",371398
+"1817","New Jersey",840900
+"1818","New Jersey",628715
+"1819","New Jersey",499509
+"1820","New Jersey",588721
+"1821","New Jersey",510916
+"1822","New Jersey",64180
+"1823","New Jersey",333654
+"1824","New Jersey",143673
+"1825","New Jersey",555786
+"1826","New Jersey",106869
+"1827","New Mexico",2085109
+"1828","New Mexico",676685
+"1829","New Mexico",3456
+"1830","New Mexico",65764
+"1831","New Mexico",27329
+"1832","New Mexico",12414
+"1833","New Mexico",50398
+"1834","New Mexico",1828
+"1835","New Mexico",214295
+"1836","New Mexico",57578
+"1837","New Mexico",28609
+"1838","New Mexico",4371
+"1839","New Mexico",698
+"1840","New Mexico",4423
+"1841","New Mexico",71180
+"1842","New Mexico",19420
+"1843","New Mexico",17785
+"1844","New Mexico",24518
+"1845","New Mexico",76708
+"1846","New Mexico",4596
+"1847","New Mexico",64362
+"1848","New Mexico",8455
+"1849","New Mexico",39465
+"1850","New Mexico",19120
+"1851","New Mexico",139394
+"1852","New Mexico",118737
+"1853","New Mexico",27967
+"1854","New Mexico",148686
+"1855","New Mexico",11282
+"1856","New Mexico",17256
+"1857","New Mexico",32907
+"1858","New Mexico",15485
+"1859","New Mexico",4201
+"1860","New Mexico",75737
+"1861","New York",19795791
+"1862","New York",309381
+"1863","New York",47462
+"1864","New York",1455444
+"1865","New York",196567
+"1866","New York",77922
+"1867","New York",78288
+"1868","New York",130779
+"1869","New York",87071
+"1870","New York",48844
+"1871","New York",81251
+"1872","New York",61509
+"1873","New York",48494
+"1874","New York",46053
+"1875","New York",295754
+"1876","New York",922578
+"1877","New York",38478
+"1878","New York",50660
+"1879","New York",53992
+"1880","New York",58937
+"1881","New York",47625
+"1882","New York",4712
+"1883","New York",63100
+"1884","New York",117635
+"1885","New York",2636735
+"1886","New York",26957
+"1887","New York",64717
+"1888","New York",71849
+"1889","New York",749600
+"1890","New York",49642
+"1891","New York",1361350
+"1892","New York",1644518
+"1893","New York",212652
+"1894","New York",232500
+"1895","New York",468463
+"1896","New York",109561
+"1897","New York",377647
+"1898","New York",41582
+"1899","New York",120146
+"1900","New York",60636
+"1901","New York",99042
+"1902","New York",2339150
+"1903","New York",160266
+"1904","New York",474558
+"1905","New York",326037
+"1906","New York",111007
+"1907","New York",226249
+"1908","New York",154604
+"1909","New York",31330
+"1910","New York",18186
+"1911","New York",34833
+"1912","New York",97631
+"1913","New York",1501587
+"1914","New York",74877
+"1915","New York",49453
+"1916","New York",104926
+"1917","New York",180143
+"1918","New York",64688
+"1919","New York",62230
+"1920","New York",91446
+"1921","New York",976396
+"1922","New York",41013
+"1923","New York",25048
+"1924","North Carolina",10042802
+"1925","North Carolina",158276
+"1926","North Carolina",37325
+"1927","North Carolina",10837
+"1928","North Carolina",25759
+"1929","North Carolina",27020
+"1930","North Carolina",17689
+"1931","North Carolina",47651
+"1932","North Carolina",20199
+"1933","North Carolina",34318
+"1934","North Carolina",122765
+"1935","North Carolina",253178
+"1936","North Carolina",88842
+"1937","North Carolina",196762
+"1938","North Carolina",81287
+"1939","North Carolina",10309
+"1940","North Carolina",68879
+"1941","North Carolina",22941
+"1942","North Carolina",155056
+"1943","North Carolina",70928
+"1944","North Carolina",27178
+"1945","North Carolina",14394
+"1946","North Carolina",10703
+"1947","North Carolina",96879
+"1948","North Carolina",56694
+"1949","North Carolina",103451
+"1950","North Carolina",323838
+"1951","North Carolina",25263
+"1952","North Carolina",35663
+"1953","North Carolina",164622
+"1954","North Carolina",41753
+"1955","North Carolina",59159
+"1956","North Carolina",300952
+"1957","North Carolina",54150
+"1958","North Carolina",369019
+"1959","North Carolina",63710
+"1960","North Carolina",213442
+"1961","North Carolina",11431
+"1962","North Carolina",8616
+"1963","North Carolina",58674
+"1964","North Carolina",21134
+"1965","North Carolina",517600
+"1966","North Carolina",52456
+"1967","North Carolina",128140
+"1968","North Carolina",59868
+"1969","North Carolina",112655
+"1970","North Carolina",24184
+"1971","North Carolina",52671
+"1972","North Carolina",5526
+"1973","North Carolina",169866
+"1974","North Carolina",41265
+"1975","North Carolina",185660
+"1976","North Carolina",10013
+"1977","North Carolina",59660
+"1978","North Carolina",58106
+"1979","North Carolina",81035
+"1980","North Carolina",44989
+"1981","North Carolina",34201
+"1982","North Carolina",21139
+"1983","North Carolina",23357
+"1984","North Carolina",1034070
+"1985","North Carolina",15246
+"1986","North Carolina",27548
+"1987","North Carolina",94352
+"1988","North Carolina",93919
+"1989","North Carolina",220358
+"1990","North Carolina",20426
+"1991","North Carolina",186311
+"1992","North Carolina",141354
+"1993","North Carolina",12781
+"1994","North Carolina",39829
+"1995","North Carolina",57611
+"1996","North Carolina",13440
+"1997","North Carolina",39259
+"1998","North Carolina",175842
+"1999","North Carolina",20366
+"2000","North Carolina",142799
+"2001","North Carolina",45437
+"2002","North Carolina",134197
+"2003","North Carolina",91758
+"2004","North Carolina",139142
+"2005","North Carolina",66390
+"2006","North Carolina",63724
+"2007","North Carolina",35509
+"2008","North Carolina",60714
+"2009","North Carolina",46351
+"2010","North Carolina",72743
+"2011","North Carolina",14434
+"2012","North Carolina",33211
+"2013","North Carolina",4070
+"2014","North Carolina",222742
+"2015","North Carolina",44568
+"2016","North Carolina",1024198
+"2017","North Carolina",20155
+"2018","North Carolina",12385
+"2019","North Carolina",52906
+"2020","North Carolina",124132
+"2021","North Carolina",68502
+"2022","North Carolina",81714
+"2023","North Carolina",37585
+"2024","North Carolina",17587
+"2025","North Dakota",756927
+"2026","North Dakota",2359
+"2027","North Dakota",11099
+"2028","North Dakota",6753
+"2029","North Dakota",936
+"2030","North Dakota",6716
+"2031","North Dakota",3294
+"2032","North Dakota",2308
+"2033","North Dakota",92991
+"2034","North Dakota",171512
+"2035","North Dakota",3828
+"2036","North Dakota",5104
+"2037","North Dakota",2450
+"2038","North Dakota",4646
+"2039","North Dakota",2365
+"2040","North Dakota",3402
+"2041","North Dakota",3356
+"2042","North Dakota",1845
+"2043","North Dakota",70916
+"2044","North Dakota",2388
+"2045","North Dakota",2314
+"2046","North Dakota",2704
+"2047","North Dakota",2417
+"2048","North Dakota",4125
+"2049","North Dakota",1935
+"2050","North Dakota",5968
+"2051","North Dakota",2759
+"2052","North Dakota",12826
+"2053","North Dakota",9744
+"2054","North Dakota",8853
+"2055","North Dakota",30310
+"2056","North Dakota",10331
+"2057","North Dakota",2968
+"2058","North Dakota",1846
+"2059","North Dakota",7091
+"2060","North Dakota",4312
+"2061","North Dakota",11630
+"2062","North Dakota",5448
+"2063","North Dakota",2571
+"2064","North Dakota",16402
+"2065","North Dakota",14649
+"2066","North Dakota",3876
+"2067","North Dakota",1310
+"2068","North Dakota",4370
+"2069","North Dakota",767
+"2070","North Dakota",32154
+"2071","North Dakota",1956
+"2072","North Dakota",21103
+"2073","North Dakota",2272
+"2074","North Dakota",8014
+"2075","North Dakota",10897
+"2076","North Dakota",71275
+"2077","North Dakota",4168
+"2078","North Dakota",35294
+"2079","Ohio",11613423
+"2080","Ohio",28024
+"2081","Ohio",104425
+"2082","Ohio",53213
+"2083","Ohio",98632
+"2084","Ohio",65886
+"2085","Ohio",45876
+"2086","Ohio",69154
+"2087","Ohio",43839
+"2088","Ohio",376353
+"2089","Ohio",27811
+"2090","Ohio",38987
+"2091","Ohio",135959
+"2092","Ohio",201973
+"2093","Ohio",41917
+"2094","Ohio",104806
+"2095","Ohio",36569
+"2096","Ohio",42306
+"2097","Ohio",1255921
+"2098","Ohio",52076
+"2099","Ohio",38352
+"2100","Ohio",193013
+"2101","Ohio",75550
+"2102","Ohio",151408
+"2103","Ohio",28679
+"2104","Ohio",1251722
+"2105","Ohio",42537
+"2106","Ohio",30142
+"2107","Ohio",94102
+"2108","Ohio",164427
+"2109","Ohio",39258
+"2110","Ohio",807598
+"2111","Ohio",75573
+"2112","Ohio",31682
+"2113","Ohio",15450
+"2114","Ohio",27816
+"2115","Ohio",43026
+"2116","Ohio",28491
+"2117","Ohio",43909
+"2118","Ohio",58469
+"2119","Ohio",32596
+"2120","Ohio",67347
+"2121","Ohio",61061
+"2122","Ohio",229245
+"2123","Ohio",61109
+"2124","Ohio",170570
+"2125","Ohio",45386
+"2126","Ohio",305147
+"2127","Ohio",433689
+"2128","Ohio",44094
+"2129","Ohio",231900
+"2130","Ohio",65355
+"2131","Ohio",176395
+"2132","Ohio",23257
+"2133","Ohio",40968
+"2134","Ohio",104224
+"2135","Ohio",14409
+"2136","Ohio",532258
+"2137","Ohio",14777
+"2138","Ohio",35074
+"2139","Ohio",86290
+"2140","Ohio",14326
+"2141","Ohio",40877
+"2142","Ohio",18976
+"2143","Ohio",35985
+"2144","Ohio",56998
+"2145","Ohio",28217
+"2146","Ohio",162275
+"2147","Ohio",41329
+"2148","Ohio",34042
+"2149","Ohio",121707
+"2150","Ohio",77170
+"2151","Ohio",59679
+"2152","Ohio",76825
+"2153","Ohio",55610
+"2154","Ohio",48901
+"2155","Ohio",375165
+"2156","Ohio",541968
+"2157","Ohio",203751
+"2158","Ohio",92916
+"2159","Ohio",54277
+"2160","Ohio",28562
+"2161","Ohio",13048
+"2162","Ohio",224469
+"2163","Ohio",61112
+"2164","Ohio",116063
+"2165","Ohio",37120
+"2166","Ohio",129730
+"2167","Ohio",22243
+"2168","Oklahoma",3911338
+"2169","Oklahoma",22004
+"2170","Oklahoma",5868
+"2171","Oklahoma",13793
+"2172","Oklahoma",5427
+"2173","Oklahoma",23768
+"2174","Oklahoma",9833
+"2175","Oklahoma",44884
+"2176","Oklahoma",29343
+"2177","Oklahoma",133378
+"2178","Oklahoma",48689
+"2179","Oklahoma",48447
+"2180","Oklahoma",14997
+"2181","Oklahoma",2216
+"2182","Oklahoma",274458
+"2183","Oklahoma",5651
+"2184","Oklahoma",124648
+"2185","Oklahoma",5996
+"2186","Oklahoma",14818
+"2187","Oklahoma",70892
+"2188","Oklahoma",29744
+"2189","Oklahoma",41459
+"2190","Oklahoma",4995
+"2191","Oklahoma",4231
+"2192","Oklahoma",63569
+"2193","Oklahoma",27755
+"2194","Oklahoma",54648
+"2195","Oklahoma",4523
+"2196","Oklahoma",6070
+"2197","Oklahoma",2788
+"2198","Oklahoma",3754
+"2199","Oklahoma",12845
+"2200","Oklahoma",13735
+"2201","Oklahoma",25574
+"2202","Oklahoma",6276
+"2203","Oklahoma",10980
+"2204","Oklahoma",45366
+"2205","Oklahoma",15584
+"2206","Oklahoma",9144
+"2207","Oklahoma",10483
+"2208","Oklahoma",49605
+"2209","Oklahoma",35042
+"2210","Oklahoma",45996
+"2211","Oklahoma",9870
+"2212","Oklahoma",38066
+"2213","Oklahoma",33048
+"2214","Oklahoma",19990
+"2215","Oklahoma",7771
+"2216","Oklahoma",16232
+"2217","Oklahoma",40887
+"2218","Oklahoma",13936
+"2219","Oklahoma",69699
+"2220","Oklahoma",11554
+"2221","Oklahoma",10539
+"2222","Oklahoma",12181
+"2223","Oklahoma",776864
+"2224","Oklahoma",39187
+"2225","Oklahoma",47887
+"2226","Oklahoma",31981
+"2227","Oklahoma",16436
+"2228","Oklahoma",80850
+"2229","Oklahoma",44610
+"2230","Oklahoma",38194
+"2231","Oklahoma",71875
+"2232","Oklahoma",11183
+"2233","Oklahoma",3788
+"2234","Oklahoma",90802
+"2235","Oklahoma",25548
+"2236","Oklahoma",41153
+"2237","Oklahoma",44581
+"2238","Oklahoma",21489
+"2239","Oklahoma",7515
+"2240","Oklahoma",639242
+"2241","Oklahoma",76559
+"2242","Oklahoma",52021
+"2243","Oklahoma",11661
+"2244","Oklahoma",9304
+"2245","Oklahoma",21559
+"2246","Oregon",4028977
+"2247","Oregon",16005
+"2248","Oregon",87572
+"2249","Oregon",401515
+"2250","Oregon",37831
+"2251","Oregon",49600
+"2252","Oregon",63121
+"2253","Oregon",21630
+"2254","Oregon",22483
+"2255","Oregon",175268
+"2256","Oregon",107685
+"2257","Oregon",1859
+"2258","Oregon",7185
+"2259","Oregon",7200
+"2260","Oregon",23137
+"2261","Oregon",212567
+"2262","Oregon",22666
+"2263","Oregon",84745
+"2264","Oregon",66016
+"2265","Oregon",7829
+"2266","Oregon",362895
+"2267","Oregon",47038
+"2268","Oregon",120547
+"2269","Oregon",30380
+"2270","Oregon",330700
+"2271","Oregon",11190
+"2272","Oregon",790294
+"2273","Oregon",79391
+"2274","Oregon",1680
+"2275","Oregon",25653
+"2276","Oregon",76531
+"2277","Oregon",25790
+"2278","Oregon",6856
+"2279","Oregon",25775
+"2280","Oregon",574326
+"2281","Oregon",1358
+"2282","Oregon",102659
+"2283","Pennsylvania",12802503
+"2284","Pennsylvania",102295
+"2285","Pennsylvania",1230459
+"2286","Pennsylvania",67052
+"2287","Pennsylvania",168871
+"2288","Pennsylvania",48586
+"2289","Pennsylvania",415271
+"2290","Pennsylvania",125593
+"2291","Pennsylvania",61281
+"2292","Pennsylvania",627367
+"2293","Pennsylvania",186818
+"2294","Pennsylvania",136411
+"2295","Pennsylvania",4732
+"2296","Pennsylvania",63960
+"2297","Pennsylvania",160580
+"2298","Pennsylvania",515939
+"2299","Pennsylvania",39498
+"2300","Pennsylvania",80994
+"2301","Pennsylvania",39441
+"2302","Pennsylvania",66672
+"2303","Pennsylvania",86484
+"2304","Pennsylvania",246338
+"2305","Pennsylvania",272983
+"2306","Pennsylvania",563894
+"2307","Pennsylvania",30872
+"2308","Pennsylvania",278045
+"2309","Pennsylvania",133628
+"2310","Pennsylvania",7410
+"2311","Pennsylvania",153638
+"2312","Pennsylvania",14629
+"2313","Pennsylvania",37519
+"2314","Pennsylvania",45668
+"2315","Pennsylvania",86966
+"2316","Pennsylvania",44430
+"2317","Pennsylvania",24737
+"2318","Pennsylvania",211917
+"2319","Pennsylvania",536624
+"2320","Pennsylvania",88082
+"2321","Pennsylvania",137067
+"2322","Pennsylvania",360685
+"2323","Pennsylvania",318449
+"2324","Pennsylvania",116048
+"2325","Pennsylvania",42412
+"2326","Pennsylvania",114234
+"2327","Pennsylvania",46500
+"2328","Pennsylvania",166397
+"2329","Pennsylvania",819264
+"2330","Pennsylvania",18557
+"2331","Pennsylvania",300813
+"2332","Pennsylvania",93246
+"2333","Pennsylvania",45685
+"2334","Pennsylvania",1567442
+"2335","Pennsylvania",55949
+"2336","Pennsylvania",17093
+"2337","Pennsylvania",144590
+"2338","Pennsylvania",40444
+"2339","Pennsylvania",75522
+"2340","Pennsylvania",6328
+"2341","Pennsylvania",41666
+"2342","Pennsylvania",41877
+"2343","Pennsylvania",44954
+"2344","Pennsylvania",53119
+"2345","Pennsylvania",40396
+"2346","Pennsylvania",208261
+"2347","Pennsylvania",51198
+"2348","Pennsylvania",357956
+"2349","Pennsylvania",27800
+"2350","Pennsylvania",442867
+"2351","Rhode Island",1056298
+"2352","Rhode Island",49084
+"2353","Rhode Island",164801
+"2354","Rhode Island",82423
+"2355","Rhode Island",633473
+"2356","Rhode Island",126517
+"2357","South Carolina",4896146
+"2358","South Carolina",24932
+"2359","South Carolina",165829
+"2360","South Carolina",9433
+"2361","South Carolina",194692
+"2362","South Carolina",14880
+"2363","South Carolina",21725
+"2364","South Carolina",179589
+"2365","South Carolina",202786
+"2366","South Carolina",14781
+"2367","South Carolina",389262
+"2368","South Carolina",56194
+"2369","South Carolina",32267
+"2370","South Carolina",46017
+"2371","South Carolina",33775
+"2372","South Carolina",37731
+"2373","South Carolina",67548
+"2374","South Carolina",31234
+"2375","South Carolina",152478
+"2376","South Carolina",26514
+"2377","South Carolina",22747
+"2378","South Carolina",138900
+"2379","South Carolina",61298
+"2380","South Carolina",491863
+"2381","South Carolina",69838
+"2382","South Carolina",20049
+"2383","South Carolina",309199
+"2384","South Carolina",27824
+"2385","South Carolina",63603
+"2386","South Carolina",85842
+"2387","South Carolina",66623
+"2388","South Carolina",17896
+"2389","South Carolina",281833
+"2390","South Carolina",9706
+"2391","South Carolina",31747
+"2392","South Carolina",27494
+"2393","South Carolina",38012
+"2394","South Carolina",75713
+"2395","South Carolina",89208
+"2396","South Carolina",121691
+"2397","South Carolina",407051
+"2398","South Carolina",20053
+"2399","South Carolina",297302
+"2400","South Carolina",107480
+"2401","South Carolina",27777
+"2402","South Carolina",32535
+"2403","South Carolina",251195
+"2404","South Dakota",858469
+"2405","South Dakota",2733
+"2406","South Dakota",18372
+"2407","South Dakota",3423
+"2408","South Dakota",6985
+"2409","South Dakota",33897
+"2410","South Dakota",38785
+"2411","South Dakota",5281
+"2412","South Dakota",2095
+"2413","South Dakota",10283
+"2414","South Dakota",1397
+"2415","South Dakota",9383
+"2416","South Dakota",3659
+"2417","South Dakota",13964
+"2418","South Dakota",27939
+"2419","South Dakota",4197
+"2420","South Dakota",8446
+"2421","South Dakota",19858
+"2422","South Dakota",5539
+"2423","South Dakota",4333
+"2424","South Dakota",5685
+"2425","South Dakota",2977
+"2426","South Dakota",3999
+"2427","South Dakota",6867
+"2428","South Dakota",2337
+"2429","South Dakota",7142
+"2430","South Dakota",4201
+"2431","South Dakota",1861
+"2432","South Dakota",6047
+"2433","South Dakota",3348
+"2434","South Dakota",3385
+"2435","South Dakota",1267
+"2436","South Dakota",17555
+"2437","South Dakota",7301
+"2438","South Dakota",1397
+"2439","South Dakota",3321
+"2440","South Dakota",1997
+"2441","South Dakota",924
+"2442","South Dakota",4990
+"2443","South Dakota",12622
+"2444","South Dakota",24827
+"2445","South Dakota",52849
+"2446","South Dakota",3876
+"2447","South Dakota",5599
+"2448","South Dakota",2415
+"2449","South Dakota",4769
+"2450","South Dakota",26986
+"2451","South Dakota",2050
+"2452","South Dakota",2236
+"2453","South Dakota",185197
+"2454","South Dakota",6430
+"2455","South Dakota",14373
+"2456","South Dakota",108702
+"2457","South Dakota",3019
+"2458","South Dakota",2320
+"2459","South Dakota",10311
+"2460","South Dakota",2355
+"2461","South Dakota",6524
+"2462","South Dakota",2954
+"2463","South Dakota",1426
+"2464","South Dakota",9959
+"2465","South Dakota",5434
+"2466","South Dakota",8209
+"2467","South Dakota",14909
+"2468","South Dakota",5443
+"2469","South Dakota",22702
+"2470","South Dakota",2803
+"2471","Tennessee",6600299
+"2472","Tennessee",75749
+"2473","Tennessee",47183
+"2474","Tennessee",16129
+"2475","Tennessee",14502
+"2476","Tennessee",127253
+"2477","Tennessee",104091
+"2478","Tennessee",39752
+"2479","Tennessee",13840
+"2480","Tennessee",27910
+"2481","Tennessee",56486
+"2482","Tennessee",39741
+"2483","Tennessee",17471
+"2484","Tennessee",31709
+"2485","Tennessee",7771
+"2486","Tennessee",35162
+"2487","Tennessee",54277
+"2488","Tennessee",14601
+"2489","Tennessee",58229
+"2490","Tennessee",678889
+"2491","Tennessee",11660
+"2492","Tennessee",19182
+"2493","Tennessee",51487
+"2494","Tennessee",37893
+"2495","Tennessee",39165
+"2496","Tennessee",17917
+"2497","Tennessee",41449
+"2498","Tennessee",49399
+"2499","Tennessee",28946
+"2500","Tennessee",22846
+"2501","Tennessee",68580
+"2502","Tennessee",13441
+"2503","Tennessee",63402
+"2504","Tennessee",354098
+"2505","Tennessee",6572
+"2506","Tennessee",25707
+"2507","Tennessee",25756
+"2508","Tennessee",56471
+"2509","Tennessee",18023
+"2510","Tennessee",28015
+"2511","Tennessee",32147
+"2512","Tennessee",24363
+"2513","Tennessee",8149
+"2514","Tennessee",18135
+"2515","Tennessee",11509
+"2516","Tennessee",53240
+"2517","Tennessee",17830
+"2518","Tennessee",451324
+"2519","Tennessee",7576
+"2520","Tennessee",26936
+"2521","Tennessee",42564
+"2522","Tennessee",11854
+"2523","Tennessee",33743
+"2524","Tennessee",51130
+"2525","Tennessee",52639
+"2526","Tennessee",26066
+"2527","Tennessee",23177
+"2528","Tennessee",97610
+"2529","Tennessee",28487
+"2530","Tennessee",31552
+"2531","Tennessee",87757
+"2532","Tennessee",11830
+"2533","Tennessee",45771
+"2534","Tennessee",193479
+"2535","Tennessee",6322
+"2536","Tennessee",21498
+"2537","Tennessee",30639
+"2538","Tennessee",22129
+"2539","Tennessee",7929
+"2540","Tennessee",5146
+"2541","Tennessee",16773
+"2542","Tennessee",74553
+"2543","Tennessee",32526
+"2544","Tennessee",52753
+"2545","Tennessee",68570
+"2546","Tennessee",298612
+"2547","Tennessee",21950
+"2548","Tennessee",14811
+"2549","Tennessee",95946
+"2550","Tennessee",938069
+"2551","Tennessee",19295
+"2552","Tennessee",13259
+"2553","Tennessee",156791
+"2554","Tennessee",175989
+"2555","Tennessee",61870
+"2556","Tennessee",8042
+"2557","Tennessee",17860
+"2558","Tennessee",19119
+"2559","Tennessee",5677
+"2560","Tennessee",40435
+"2561","Tennessee",126302
+"2562","Tennessee",16748
+"2563","Tennessee",33960
+"2564","Tennessee",26521
+"2565","Tennessee",211672
+"2566","Tennessee",128911
+"2567","Texas",27469114
+"2568","Texas",57580
+"2569","Texas",18105
+"2570","Texas",88255
+"2571","Texas",25350
+"2572","Texas",8715
+"2573","Texas",1947
+"2574","Texas",48435
+"2575","Texas",29563
+"2576","Texas",7210
+"2577","Texas",21269
+"2578","Texas",80527
+"2579","Texas",3618
+"2580","Texas",32874
+"2581","Texas",334941
+"2582","Texas",1897753
+"2583","Texas",11004
+"2584","Texas",648
+"2585","Texas",17891
+"2586","Texas",93389
+"2587","Texas",346312
+"2588","Texas",215037
+"2589","Texas",9145
+"2590","Texas",1505
+"2591","Texas",7230
+"2592","Texas",37896
+"2593","Texas",17460
+"2594","Texas",45463
+"2595","Texas",40522
+"2596","Texas",21895
+"2597","Texas",13557
+"2598","Texas",422156
+"2599","Texas",12682
+"2600","Texas",5969
+"2601","Texas",30313
+"2602","Texas",7656
+"2603","Texas",38863
+"2604","Texas",51542
+"2605","Texas",7088
+"2606","Texas",10360
+"2607","Texas",2953
+"2608","Texas",3238
+"2609","Texas",8338
+"2610","Texas",914127
+"2611","Texas",3044
+"2612","Texas",20870
+"2613","Texas",129048
+"2614","Texas",13430
+"2615","Texas",4081
+"2616","Texas",39229
+"2617","Texas",75503
+"2618","Texas",1426
+"2619","Texas",5048
+"2620","Texas",3710
+"2621","Texas",5977
+"2622","Texas",2236
+"2623","Texas",7121
+"2624","Texas",2553385
+"2625","Texas",13520
+"2626","Texas",18952
+"2627","Texas",5217
+"2628","Texas",780612
+"2629","Texas",20797
+"2630","Texas",2206
+"2631","Texas",10980
+"2632","Texas",3499
+"2633","Texas",11388
+"2634","Texas",18171
+"2635","Texas",159436
+"2636","Texas",1894
+"2637","Texas",163632
+"2638","Texas",835593
+"2639","Texas",41122
+"2640","Texas",17142
+"2641","Texas",33693
+"2642","Texas",25110
+"2643","Texas",3827
+"2644","Texas",5901
+"2645","Texas",1220
+"2646","Texas",716087
+"2647","Texas",10651
+"2648","Texas",19691
+"2649","Texas",18793
+"2650","Texas",20051
+"2651","Texas",322225
+"2652","Texas",6415
+"2653","Texas",25963
+"2654","Texas",1315
+"2655","Texas",7531
+"2656","Texas",20573
+"2657","Texas",23210
+"2658","Texas",125467
+"2659","Texas",124108
+"2660","Texas",27512
+"2661","Texas",151249
+"2662","Texas",34360
+"2663","Texas",3138
+"2664","Texas",8159
+"2665","Texas",5610
+"2666","Texas",3840
+"2667","Texas",55865
+"2668","Texas",4538028
+"2669","Texas",66746
+"2670","Texas",6193
+"2671","Texas",5737
+"2672","Texas",194739
+"2673","Texas",4264
+"2674","Texas",79545
+"2675","Texas",842304
+"2676","Texas",34855
+"2677","Texas",23433
+"2678","Texas",55423
+"2679","Texas",36223
+"2680","Texas",22785
+"2681","Texas",37206
+"2682","Texas",3379
+"2683","Texas",89844
+"2684","Texas",21734
+"2685","Texas",1554
+"2686","Texas",8878
+"2687","Texas",14816
+"2688","Texas",35506
+"2689","Texas",2156
+"2690","Texas",254308
+"2691","Texas",5200
+"2692","Texas",41382
+"2693","Texas",159990
+"2694","Texas",19970
+"2695","Texas",14975
+"2696","Texas",114690
+"2697","Texas",40384
+"2698","Texas",407
+"2699","Texas",764
+"2700","Texas",50955
+"2701","Texas",4388
+"2702","Texas",282
+"2703","Texas",3549
+"2704","Texas",31857
+"2705","Texas",3860
+"2706","Texas",49440
+"2707","Texas",13385
+"2708","Texas",20588
+"2709","Texas",7631
+"2710","Texas",19836
+"2711","Texas",16898
+"2712","Texas",17086
+"2713","Texas",79654
+"2714","Texas",23320
+"2715","Texas",3569
+"2716","Texas",12229
+"2717","Texas",19796
+"2718","Texas",112
+"2719","Texas",299453
+"2720","Texas",5724
+"2721","Texas",8341
+"2722","Texas",245671
+"2723","Texas",820
+"2724","Texas",14065
+"2725","Texas",10160
+"2726","Texas",5641
+"2727","Texas",4032
+"2728","Texas",36770
+"2729","Texas",57706
+"2730","Texas",48417
+"2731","Texas",2164
+"2732","Texas",161077
+"2733","Texas",24513
+"2734","Texas",4900
+"2735","Texas",9067
+"2736","Texas",19262
+"2737","Texas",537559
+"2738","Texas",22255
+"2739","Texas",12516
+"2740","Texas",1148
+"2741","Texas",65664
+"2742","Texas",48323
+"2743","Texas",13986
+"2744","Texas",15107
+"2745","Texas",359715
+"2746","Texas",10747
+"2747","Texas",2069
+"2748","Texas",84260
+"2749","Texas",27895
+"2750","Texas",23766
+"2751","Texas",126042
+"2752","Texas",9749
+"2753","Texas",16203
+"2754","Texas",46972
+"2755","Texas",121802
+"2756","Texas",6876
+"2757","Texas",11161
+"2758","Texas",130269
+"2759","Texas",3792
+"2760","Texas",3307
+"2761","Texas",12455
+"2762","Texas",14732
+"2763","Texas",7289
+"2764","Texas",916
+"2765","Texas",16659
+"2766","Texas",90861
+"2767","Texas",10551
+"2768","Texas",53070
+"2769","Texas",10368
+"2770","Texas",8473
+"2771","Texas",27413
+"2772","Texas",67357
+"2773","Texas",5901
+"2774","Texas",3211
+"2775","Texas",17615
+"2776","Texas",3350
+"2777","Texas",25402
+"2778","Texas",3072
+"2779","Texas",222936
+"2780","Texas",8739
+"2781","Texas",63795
+"2782","Texas",9440
+"2783","Texas",1352
+"2784","Texas",1410
+"2785","Texas",3913
+"2786","Texas",7533
+"2787","Texas",1982498
+"2788","Texas",136051
+"2789","Texas",837
+"2790","Texas",12739
+"2791","Texas",1579
+"2792","Texas",32623
+"2793","Texas",118105
+"2794","Texas",1176558
+"2795","Texas",14402
+"2796","Texas",21347
+"2797","Texas",40603
+"2798","Texas",3651
+"2799","Texas",27245
+"2800","Texas",48988
+"2801","Texas",53547
+"2802","Texas",92382
+"2803","Texas",70699
+"2804","Texas",48656
+"2805","Texas",11721
+"2806","Texas",34765
+"2807","Texas",269721
+"2808","Texas",41486
+"2809","Texas",5657
+"2810","Texas",131705
+"2811","Texas",13027
+"2812","Texas",21903
+"2813","Texas",508514
+"2814","Texas",47520
+"2815","Texas",8005
+"2816","Texas",62953
+"2817","Texas",43356
+"2818","Texas",8546
+"2819","Texas",18270
+"2820","Texas",14374
+"2821","Texas",12235
+"2822","Utah",2995919
+"2823","Utah",6354
+"2824","Utah",52097
+"2825","Utah",120783
+"2826","Utah",20479
+"2827","Utah",1109
+"2828","Utah",336043
+"2829","Utah",20862
+"2830","Utah",10370
+"2831","Utah",5009
+"2832","Utah",9516
+"2833","Utah",48368
+"2834","Utah",10594
+"2835","Utah",7131
+"2836","Utah",12645
+"2837","Utah",11065
+"2838","Utah",1517
+"2839","Utah",2311
+"2840","Utah",1107314
+"2841","Utah",15772
+"2842","Utah",28778
+"2843","Utah",20984
+"2844","Utah",39633
+"2845","Utah",62952
+"2846","Utah",37928
+"2847","Utah",575205
+"2848","Utah",29161
+"2849","Utah",155602
+"2850","Utah",2692
+"2851","Utah",243645
+"2852","Vermont",626042
+"2853","Vermont",37035
+"2854","Vermont",36317
+"2855","Vermont",30780
+"2856","Vermont",161382
+"2857","Vermont",6163
+"2858","Vermont",48799
+"2859","Vermont",6861
+"2860","Vermont",25235
+"2861","Vermont",28899
+"2862","Vermont",27100
+"2863","Vermont",59736
+"2864","Vermont",58612
+"2865","Vermont",43386
+"2866","Vermont",55737
+"2867","Virginia",8382993
+"2868","Virginia",32973
+"2869","Virginia",105703
+"2870","Virginia",15677
+"2871","Virginia",12903
+"2872","Virginia",31914
+"2873","Virginia",15414
+"2874","Virginia",229164
+"2875","Virginia",74314
+"2876","Virginia",4470
+"2877","Virginia",77724
+"2878","Virginia",6561
+"2879","Virginia",33347
+"2880","Virginia",16698
+"2881","Virginia",22776
+"2882","Virginia",17032
+"2883","Virginia",55086
+"2884","Virginia",29984
+"2885","Virginia",29724
+"2886","Virginia",7040
+"2887","Virginia",12201
+"2888","Virginia",335687
+"2889","Virginia",14363
+"2890","Virginia",5211
+"2891","Virginia",49432
+"2892","Virginia",9719
+"2893","Virginia",15115
+"2894","Virginia",27852
+"2895","Virginia",11130
+"2896","Virginia",1142234
+"2897","Virginia",68782
+"2898","Virginia",15651
+"2899","Virginia",26235
+"2900","Virginia",56264
+"2901","Virginia",83199
+"2902","Virginia",16708
+"2903","Virginia",37143
+"2904","Virginia",22253
+"2905","Virginia",16012
+"2906","Virginia",19162
+"2907","Virginia",11885
+"2908","Virginia",35125
+"2909","Virginia",103227
+"2910","Virginia",325155
+"2911","Virginia",51881
+"2912","Virginia",2214
+"2913","Virginia",36314
+"2914","Virginia",73147
+"2915","Virginia",7158
+"2916","Virginia",25515
+"2917","Virginia",16269
+"2918","Virginia",10965
+"2919","Virginia",24742
+"2920","Virginia",375629
+"2921","Virginia",34602
+"2922","Virginia",12299
+"2923","Virginia",13134
+"2924","Virginia",8862
+"2925","Virginia",31081
+"2926","Virginia",10606
+"2927","Virginia",97653
+"2928","Virginia",14785
+"2929","Virginia",20392
+"2930","Virginia",12155
+"2931","Virginia",12232
+"2932","Virginia",15673
+"2933","Virginia",35385
+"2934","Virginia",23726
+"2935","Virginia",18045
+"2936","Virginia",62194
+"2937","Virginia",28031
+"2938","Virginia",22952
+"2939","Virginia",37862
+"2940","Virginia",451721
+"2941","Virginia",34332
+"2942","Virginia",7378
+"2943","Virginia",8908
+"2944","Virginia",94409
+"2945","Virginia",22354
+"2946","Virginia",78593
+"2947","Virginia",27891
+"2948","Virginia",22126
+"2949","Virginia",43190
+"2950","Virginia",31470
+"2951","Virginia",18109
+"2952","Virginia",130475
+"2953","Virginia",142003
+"2954","Virginia",6709
+"2955","Virginia",11715
+"2956","Virginia",42899
+"2957","Virginia",39083
+"2958","Virginia",54591
+"2959","Virginia",17629
+"2960","Virginia",39718
+"2961","Virginia",29119
+"2962","Virginia",67837
+"2963","Virginia",153511
+"2964","Virginia",17141
+"2965","Virginia",6618
+"2966","Virginia",46597
+"2967","Virginia",235429
+"2968","Virginia",17820
+"2969","Virginia",5658
+"2970","Virginia",42082
+"2971","Virginia",5496
+"2972","Virginia",24013
+"2973","Virginia",13892
+"2974","Virginia",8490
+"2975","Virginia",28118
+"2976","Virginia",6914
+"2977","Virginia",136454
+"2978","Virginia",52538
+"2979","Virginia",22378
+"2980","Virginia",7262
+"2981","Virginia",79812
+"2982","Virginia",41764
+"2983","Virginia",15726
+"2984","Virginia",13645
+"2985","Virginia",182385
+"2986","Virginia",246393
+"2987","Virginia",3939
+"2988","Virginia",32477
+"2989","Virginia",12059
+"2990","Virginia",96201
+"2991","Virginia",17403
+"2992","Virginia",220289
+"2993","Virginia",99897
+"2994","Virginia",25432
+"2995","Virginia",24416
+"2996","Virginia",88161
+"2997","Virginia",452745
+"2998","Virginia",21491
+"2999","Virginia",15052
+"3000","Virginia",27284
+"3001","Washington",7170351
+"3002","Washington",19254
+"3003","Washington",22105
+"3004","Washington",190309
+"3005","Washington",75644
+"3006","Washington",73486
+"3007","Washington",459495
+"3008","Washington",3944
+"3009","Washington",103468
+"3010","Washington",40534
+"3011","Washington",7582
+"3012","Washington",88807
+"3013","Washington",2219
+"3014","Washington",93259
+"3015","Washington",71122
+"3016","Washington",80593
+"3017","Washington",30466
+"3018","Washington",2117125
+"3019","Washington",260131
+"3020","Washington",43269
+"3021","Washington",21026
+"3022","Washington",75882
+"3023","Washington",10321
+"3024","Washington",61023
+"3025","Washington",41516
+"3026","Washington",20848
+"3027","Washington",13088
+"3028","Washington",843954
+"3029","Washington",16252
+"3030","Washington",121846
+"3031","Washington",11339
+"3032","Washington",772501
+"3033","Washington",490945
+"3034","Washington",43791
+"3035","Washington",269536
+"3036","Washington",4042
+"3037","Washington",60338
+"3038","Washington",212284
+"3039","Washington",48177
+"3040","Washington",248830
+"3041","West Virginia",1844128
+"3042","West Virginia",16704
+"3043","West Virginia",111901
+"3044","West Virginia",23372
+"3045","West Virginia",14415
+"3046","West Virginia",23350
+"3047","West Virginia",96844
+"3048","West Virginia",7470
+"3049","West Virginia",8910
+"3050","West Virginia",8176
+"3051","West Virginia",44997
+"3052","West Virginia",8518
+"3053","West Virginia",11766
+"3054","West Virginia",35516
+"3055","West Virginia",23353
+"3056","West Virginia",29815
+"3057","West Virginia",13852
+"3058","West Virginia",68714
+"3059","West Virginia",29237
+"3060","West Virginia",56482
+"3061","West Virginia",188332
+"3062","West Virginia",16448
+"3063","West Virginia",21415
+"3064","West Virginia",34707
+"3065","West Virginia",19835
+"3066","West Virginia",56925
+"3067","West Virginia",31978
+"3068","West Virginia",27037
+"3069","West Virginia",61164
+"3070","West Virginia",27451
+"3071","West Virginia",25292
+"3072","West Virginia",104236
+"3073","West Virginia",13506
+"3074","West Virginia",17524
+"3075","West Virginia",25594
+"3076","West Virginia",43066
+"3077","West Virginia",7229
+"3078","West Virginia",7674
+"3079","West Virginia",8607
+"3080","West Virginia",33940
+"3081","West Virginia",56848
+"3082","West Virginia",77510
+"3083","West Virginia",29126
+"3084","West Virginia",9982
+"3085","West Virginia",14435
+"3086","West Virginia",13239
+"3087","West Virginia",16912
+"3088","West Virginia",6966
+"3089","West Virginia",8975
+"3090","West Virginia",24758
+"3091","West Virginia",40971
+"3092","West Virginia",8755
+"3093","West Virginia",15816
+"3094","West Virginia",5880
+"3095","West Virginia",86452
+"3096","West Virginia",22151
+"3097","Wisconsin",5771337
+"3098","Wisconsin",20148
+"3099","Wisconsin",15843
+"3100","Wisconsin",45563
+"3101","Wisconsin",14977
+"3102","Wisconsin",258718
+"3103","Wisconsin",13192
+"3104","Wisconsin",15159
+"3105","Wisconsin",49762
+"3106","Wisconsin",63531
+"3107","Wisconsin",34445
+"3108","Wisconsin",56743
+"3109","Wisconsin",16391
+"3110","Wisconsin",523643
+"3111","Wisconsin",88502
+"3112","Wisconsin",27554
+"3113","Wisconsin",43601
+"3114","Wisconsin",44497
+"3115","Wisconsin",102105
+"3116","Wisconsin",4464
+"3117","Wisconsin",101973
+"3118","Wisconsin",9057
+"3119","Wisconsin",52250
+"3120","Wisconsin",37186
+"3121","Wisconsin",18856
+"3122","Wisconsin",23813
+"3123","Wisconsin",5794
+"3124","Wisconsin",20554
+"3125","Wisconsin",84559
+"3126","Wisconsin",26224
+"3127","Wisconsin",168437
+"3128","Wisconsin",20366
+"3129","Wisconsin",118212
+"3130","Wisconsin",16829
+"3131","Wisconsin",19223
+"3132","Wisconsin",27980
+"3133","Wisconsin",79806
+"3134","Wisconsin",135868
+"3135","Wisconsin",40884
+"3136","Wisconsin",15075
+"3137","Wisconsin",4573
+"3138","Wisconsin",957735
+"3139","Wisconsin",45549
+"3140","Wisconsin",37435
+"3141","Wisconsin",35567
+"3142","Wisconsin",183245
+"3143","Wisconsin",87850
+"3144","Wisconsin",7290
+"3145","Wisconsin",40889
+"3146","Wisconsin",43441
+"3147","Wisconsin",70408
+"3148","Wisconsin",13645
+"3149","Wisconsin",195080
+"3150","Wisconsin",17495
+"3151","Wisconsin",161448
+"3152","Wisconsin",14124
+"3153","Wisconsin",87513
+"3154","Wisconsin",63642
+"3155","Wisconsin",16376
+"3156","Wisconsin",41304
+"3157","Wisconsin",115569
+"3158","Wisconsin",20455
+"3159","Wisconsin",29550
+"3160","Wisconsin",30506
+"3161","Wisconsin",21387
+"3162","Wisconsin",102804
+"3163","Wisconsin",15552
+"3164","Wisconsin",133674
+"3165","Wisconsin",396488
+"3166","Wisconsin",51945
+"3167","Wisconsin",24033
+"3168","Wisconsin",169546
+"3169","Wisconsin",73435
+"3170","Wyoming",586107
+"3171","Wyoming",37956
+"3172","Wyoming",12022
+"3173","Wyoming",49220
+"3174","Wyoming",15559
+"3175","Wyoming",14236
+"3176","Wyoming",7444
+"3177","Wyoming",40315
+"3178","Wyoming",13383
+"3179","Wyoming",4741
+"3180","Wyoming",8585
+"3181","Wyoming",97121
+"3182","Wyoming",18722
+"3183","Wyoming",82178
+"3184","Wyoming",2542
+"3185","Wyoming",29228
+"3186","Wyoming",8812
+"3187","Wyoming",30009
+"3188","Wyoming",9899
+"3189","Wyoming",44626
+"3190","Wyoming",23125
+"3191","Wyoming",20822
+"3192","Wyoming",8328
+"3193","Wyoming",7234

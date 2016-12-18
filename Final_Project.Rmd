@@ -1,0 +1,716 @@
+---
+title: "Final_project"
+author: "Bianca Gonzalez"
+date: "11/5/2016"
+output: html_document
+---
+Rpubs: http://rpubs.com/biancaglez94/FinalTwitterProject
+Abstract:
+
+This paper describes the goals, methodologies, results, and limitations accompanying research using a website scraped dataset from Twitter. This research is intended to lay groundwork as to where population geography can begin to use other forms of irregular datasets to extend its scope. The research encompasses several areas of study to inform the methodology and discussion. The question asked is: does an increase in migration have an effect on negative sentiments? To answer this, an analysis of a small 2016 Twitter dataset of users’ anti-international migration sentiments was analyzed alongside an international migration flows dataset from 2015 (ACS). The regression models show that for every unit increase of international migration there is a miniscule increase of hate tweets. However, in an exploratory data analysis, the states with the lowest migration inflows also have the highest rate of anti international migration tweets. The results of the methodology are mixed, and show there is room for expansion, especially in collecting a rich dataset, over months of scraping, with coordinates of true location. The paper hopes to eventually inform others in their use non-formal datasets to determine global flow phenomena.  
+
+Motivation:
+
+The election of 2016 gave people validation when declaring they would no longer stand for an old establishment. These people tended to be older white rural populations. These small rural communities, and some debated interference by Russian hackers, historically changed election outcomes when Donald Trump won his election bid. The president-elect’s rhetoric throughout the election thrived on far right nationalism, rejecting notions of immigration. By democratic-leftist parties and US minorities, the rhetoric employed felt bigoted and targeted, a campaign entirely funded by human irrational fears of the other. Many of the sentiments were fueled by racism against migrants, notwithstanding the most famous quote of all “I will build a great, great wall on our southern border and I will make Mexico pay for that wall.” 
+
+The anti-immigration sentiments expressed by many in the United States and our President Elect, inspired an urgency in uncovering the forces behind the national divide. To begin to parse away at the reason a schism in the country over migration exists, the research question attempts to find the relationship between international migration change and negative sentiments tweeted within the continental United States. Specifically, the research question attempts to understand how a change in migration in an area can change the general sentiments towards migration. One of many hypothesis for a divide in the country is: many people expressing discontent with migrants are generally unexposed to human migrants themselves.
+
+In deciding the statistical packages I would use, I decided on these for mapping, tweeting, and analytical capabilities. 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(stringr)
+library(tigris)
+library(broom) #convert to tidy data frames
+library(tidyr)
+library(dplyr)
+library(tidyverse) # R coder's basic toolbox
+library(twitteR) # to mine tweets
+library(dismo) # to obtain a wrapper around Google geocoding API function
+library(XML) # support geocode fns
+library(httr) # support geocode fns
+library(RCurl)
+library(maps) #for mapping functions
+library(mapproj)
+library(rgeos)
+library(knitr)
+library(RJSONIO)
+library(googleway)
+library(ggmap)
+library(USAboundaries)
+library(maptools)
+library(forcats)
+library(rgeos)
+library(sp)
+library(rgdal)
+library(tigris)
+```
+
+These are some common data files I will need trhoughout the entire analysis: 
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+#state shapefiles for maps
+state_shp <- us_states()
+state_data <- state_shp@data #geoid is common id in data, use it to tidy. 
+state_polygon <- broom::tidy(state_shp, region="geoid")
+state <- left_join(state_polygon, state_data, by=c("id"="geoid"))
+state <- state %>%
+  filter(!name %in% c("Alaska", "Hawaii", "Puerto Rico"))
+
+#state abbreviations and full names
+states <- read.csv("states.csv")
+
+#bring in migration data to plot
+migration <- read.csv("domesticMigration.csv")
+```
+Put in an exploratory data analysis:
+
+Mining tweets to save in a CSV file for ease of analysis: 
+Coordinates #to get rid of fake users, try to filter out people that recently created their twitter when he launched his campaign before June 16th!
+Issues: case senstitive
+
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+#this is my original datset of 500 observations, try to bind it to the other observations
+#going to search for more and retain this original set. 
+neg_sent_geo <- read.csv("negative_sentiments.csv") 
+```
+
+Data mining via Twitter
+```{r, eval=FALSE}
+library(twitteR)
+setup_twitter_oauth(
+  "piEuEr4whaGflG8STgFTqtKj8", 
+  "fv3kaMjF1hSe08wNxNVwMwShtpJnxzh5knP92coLk2tCHlDMo2", 
+  "795100116235485185-8EFIcaBR0XVYszFkbZiNe5mQOIxQikp", 
+  "4yVM5rL0fhrnJYgFD992R2iGre4sVlVqmvfRkjKpOKSQq"
+)
+#Negative sentiments list
+trumps_army <- searchTwitter("#TrumpsArmy", n=10000, lang="en")
+hold_borders <- searchTwitter("#holdourborders", n=10000, lang="en")
+build_wall <- searchTwitter("#buildthatwall", n=100, lang="en")
+stop_immigration <- searchTwitter("#stopimmigration", n=10000, lang="en")
+build_wall2 <- searchTwitter("#buildthewall", n=10000, lang="en")
+illegal <- searchTwitter("#illegals", n=10000, lang="en")
+ban <- searchTwitter("#banislam", n=10000, lang="en")
+rape <- searchTwitter("#rapefugees", n=10000, lang="en")
+deport <- searchTwitter("#deport", n=10000, lang="en")
+fuckIslam <- searchTwitter("#fuckIslam", n =10000, lang="en")
+stopmusliminvasion <- searchTwitter("#stopmusliminvasion", n= 10000, lang="en")
+
+negative_sentiments <- c(trumps_army, stop_immigration, build_wall2, hold_borders, illegal, ban, rape, deport, fuckIslam, stopmusliminvasion)
+#convert tweets to df
+negative_sentiments_df <- twListToDF(negative_sentiments)
+negative_sentiments_df <- negative_sentiments_df %>% 
+  tibble::rownames_to_column(var="idz") 
+```
+
+```{r, eval=FALSE, echo=FALSE, results='hide', message='hide'}
+#set of 5% of users:
+#testing operations below to eventually run the entire dataset through it. 
+negative_sentiments_sample <- negative_sentiments_df %>% 
+  sample_frac(.05)
+
+#okay now let's get all of our observations and put them into a dataframe: 
+neg_95 <- anti_join(negative_sentiments_df, negative_sentiments_sample, by="idz")
+negative_sentiments_users <- lookupUsers(neg_95$screenName)
+neg_sent_tbl <- twListToDF(negative_sentiments_users)
+
+negcent3 <- read.csv("neg_cent3.csv", header=TRUE, stringsAsFactors=FALSE, fileEncoding="latin1")
+
+negcent3 <- negcent3 %>%  
+  tibble::rownames_to_column(var="idz") %>% 
+  filter(location != '')
+
+
+#the Google API only allows the USER to geocode 2500 tweets at a time. 
+#One approach I took was breaking my datasets into tables of 2500 observations
+
+#I then realized however, 2500 was the max for a day, and so the function didn't return anything, so I adapted a script (shown below later) to surpass the 2500 limit a day. 
+negcent2500 <- read.csv("negcent2500.csv", header=TRUE, stringsAsFactors=FALSE, fileEncoding="latin1")
+
+#orignially mined dataset from a few weeks back. Going to bind it to newly mined data
+neg_sent_geo <- neg_sent_geo %>% 
+  filter(location != '') %>% 
+  tibble::rownames_to_column(var="idz") 
+
+#want to bind these two data sets together (old + new data- same format)
+negcent3<- bind_rows(negcent3, neg_sent_geo)
+
+#so I selcted only the locations that were within the USA that were correctly spelled
+#i decided to move forward with the STRINGR package. 
+
+states$State <- as.character(states$State)
+states$Abbrev <- as.character(states$Abbrev)
+
+#select imporatnt attributes, then if stringr detects the State, select it and 
+#add column saying it fits the requirement 
+negstate <- negcent3 %>% 
+  dplyr::select(idz, location, description, screenName, created) %>% 
+  mutate(TRUE_state = 
+           stringr::str_detect(negcent3$location, states$State)) 
+
+#select imporatnt attributes, then if stringr detects the Abbreviation of State, select it.
+#add column with binary yes/no if fits
+negabbrev <- negcent3 %>% 
+  dplyr::select(idz, location, description, screenName, created) %>% 
+  mutate(TRUE_state = 
+           stringr::str_detect(negcent3$location, states$Abbrev)) 
+
+#join these two by unique IDZ, and now we have a dataset we can geocode based on a location in the country, without losing the county data. 
+neg_states_yes <- full_join(negabbrev, negstate, by = 'idz')
+#so now say 1 if true in x and y column
+neg_states_yes <- neg_states_yes %>% 
+mutate(yes_state = ifelse(TRUE_state.x == TRUE | TRUE_state.y == TRUE, 1, 0))
+
+neg_states_yes <- neg_states_yes %>% 
+  filter(yes_state == 1) 
+
+#take only unique screen names so we don't double count from any single user:
+unique_users<- distinct(neg_states_yes, screenName.x)
+
+neg_states_yes <- inner_join(neg_states_yes, unique_users, by=c("screenName.x"="screenName.x"))
+
+#write.csv(neg_states_yes, file = "neg_states_yes.csv")
+
+#can now geocode this file. 
+```
+Now I have my tweets generated via R, but want to add data from live streamed tweets as well. 
+```{r, eval=FALSE}
+#my python generated locations have been added to the dataset below:
+neg_state_py <- read.csv("neg_state_py.csv") 
+```
+
+I need more data so a python generated script is used to mine this data, courtsey of Ellen Sartorelli. These tweets have a bounding box within the contintenal USA. 
+```{r, eval=FALSE, echo=FALSE, results='hide', message='hide'}
+neg_state_py$location.y <- as.character(neg_state_py$location.y) 
+
+# Adapated the below script from Shane Lynn to extract exact lat, long from reported locations via a geocoding script. 
+
+# input data
+infile <- "neg_state_py"
+data <- read.csv("neg_state_py.csv", header=TRUE, stringsAsFactors=FALSE, fileEncoding="latin1") 
+
+#rename location.y to address so dont have to replace in entire script
+data <- data %>% 
+  rename(address = location.y) 
+
+#define a function that will process googles server responses for us.
+getGeoDetails <- function(address){   
+   #use the gecode function to query google servers
+   geo_reply = geocode(address, output='all', messaging=TRUE, override_limit=TRUE)
+   #now extract the bits that we need from the returned list
+   answer <- data.frame(lat=NA, long=NA, accuracy=NA, formatted_address=NA, address_type=NA, status=NA)
+   answer$status <- geo_reply$status
+
+   #if we are over the query limit - want to pause for an hour
+   while(geo_reply$status == "OVER_QUERY_LIMIT"){
+       print("OVER QUERY LIMIT - Pausing for 1 hour at:") 
+       time <- Sys.time()
+       print(as.character(time))
+       Sys.sleep(60*60)
+       geo_reply = geocode(address, output='all', messaging=TRUE, override_limit=TRUE)
+       answer$status <- geo_reply$status
+   }
+
+   #return Na's if we didn't get a match:
+   if (geo_reply$status != "OK"){
+       return(answer)
+   }   
+   #else, extract what we need from the Google server reply into a dataframe:
+   answer$lat <- geo_reply$results[[1]]$geometry$location$lat
+   answer$long <- geo_reply$results[[1]]$geometry$location$lng   
+   if (length(geo_reply$results[[1]]$types) > 0){
+       answer$accuracy <- geo_reply$results[[1]]$types[[1]]
+   }
+   answer$address_type <- paste(geo_reply$results[[1]]$types, collapse=',')
+   answer$formatted_address <- geo_reply$results[[1]]$formatted_address
+
+   return(answer)
+}
+
+#initialise a dataframe to hold the results
+geocoded <- data.frame()
+# find out where to start in the address list (if the script was interrupted before):
+startindex <- 1
+#if a temp file exists - load it up and count the rows!
+tempfilename <- paste0(infile, '_temp_geocoded.rds')
+if (file.exists(tempfilename)){
+       print("Found temp file - resuming from index:")
+       geocoded <- readRDS(tempfilename)
+       startindex <- nrow(geocoded)
+       print(startindex)
+}
+#get address list
+data$address <-as.character(data$address)
+addresses = data$address
+
+# Start the geocoding process - address by address. geocode() function takes care of query speed limit.
+for (ii in seq(startindex, length(addresses))){
+   print(paste("Working on index", ii, "of", length(addresses)))
+   #query the google geocoder - this will pause here if we are over the limit.
+   result = getGeoDetails(addresses[ii]) 
+   print(result$status)     
+   result$index <- ii
+   #append the answer to the results file.
+   geocoded <- rbind(geocoded, result)
+   #save temporary results as we are going along
+   saveRDS(geocoded, tempfilename)
+}
+
+#stopped script from requesting every hour. may do so at night
+#now we add the latitude and longitude to the main data
+data %>% View()
+geocoded %>% View()
+#got back 122
+
+geocoded_results <- geocoded
+write.csv(geocoded_results, file = "geocoded_results.csv")
+```
+
+
+Getting counties from lat long adventure 
+```{r, eval=FALSE, echo=FALSE, results='hide', message='hide'}
+
+#neg_sent_geo <- read.csv("negative_sentiments.csv")
+geocoded_results <- read.csv("geocoded_results.csv")
+
+#select currently has some weird bug when I try to use it, so subset data a differnet way
+geocoded_results <- geocoded_results%>% 
+  filter(!is.na(lat) | !is.na(long))
+
+# First and third column with all rows formatting as matrix
+geocoded_results_df <- geocoded_results[,c(2,3)] 
+
+counties <- tigris::counties()
+class(counties)
+counties %>% View()
+
+counties@proj4string #find crs to convert
+
+# Don't use df as name, it is an R function
+# Better to set longitudes as the first column and latitudes as the second
+geocoded_results_df <- geocoded_results_df[,c(1,2)] %>% 
+  mutate(longitude = paste(long)) %>% 
+  mutate(latitude = paste(lat)) 
+
+#select long, lat
+geocoded_results_df <- geocoded_results_df[,c(3,4)] %>% 
+  rename(long = longitude, lat = latitude)
+
+geocoded_results_df$long <- as.numeric(geocoded_results_df$long)
+geocoded_results_df$lat <- as.numeric(geocoded_results_df$lat)
+
+
+pts <- geocoded_results_df
+#pts %>% View()
+pts<- pts[,c(1,2)]
+
+#cbind() is function that allows me to combine R objects by columns
+#so will combine into new data frame as spatial point. use longlat CRS
+pts = SpatialPoints(cbind(pts$lon,pts$lat), CRS("+proj=longlat"))
+#pts %>% View()
+
+# Set the projection of the SpatialPointsDataFrame using the projection of the shapefile
+counties@proj4string #find crs to convert
+pts@proj4string
+counties<- spTransform(counties, proj4string(pts))
+proj4string(pts) <- proj4string(counties)
+
+#check CRS again-- they're the same! 
+#now we use the function over, that allows us to see what points (latlong) fall inside
+#of ours spatial layer counties. 
+eek <- over(pts, counties)
+write.csv(eek, file = "counties_eek.csv")
+
+#adapted from:
+#http://gis.stackexchange.com/questions/133625/checking-if-points-fall-within-polygon-shapefile 
+#http://stackoverflow.com/questions/9974785/error-when-re-projecting-spatial-points-using-sptransform-in-rgdal-r
+```
+
+Here let's create a counties map to see where these observations of twitter tweets lie:
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+counties_eek<-read.csv("counties_eek.csv")
+eek_id <- counties_eek %>% 
+  tibble::rownames_to_column(var="id_eek") 
+
+#group by name and mutate to add column that counts
+cty_ct<- eek_id %>% 
+  dplyr::select(id_eek, STATEFP, GEOID, NAMELSAD,NAME) %>% 
+  group_by(NAME) %>% 
+  tally()
+
+county_ct <- full_join(cty_ct, eek_id, by = c("NAME" = "NAME")) %>% 
+  rename(hate_count = n)
+
+counties_shp <- us_counties()
+counties_data <- counties_shp@data #geoid is common id in data, use it to tidy. 
+counties_polygon <- broom::tidy(counties_shp, region="geoid")
+counties <- left_join(counties_polygon, counties_data, by=c("id"="geoid"))
+counties_ask <- counties %>%
+  filter(!name %in% c("Alaska", "Hawaii", "Puerto Rico"))
+
+
+#filter above wasn't working so alternative terrible hacky way:
+counties_ask<-counties %>% 
+  filter(state_name != "Alaska") %>% 
+  filter(state_name != "Hawaii") %>% 
+  filter(state_name != "Puerto Rico")
+
+cPc <- full_join(counties_ask, county_ct, by = c("name"= "NAME"))
+
+cPc$id_eek<-as.numeric(cPc$id_eek)
+
+#CCI <- inner_join(county_ct, counties_ask, by = c("NAME"= "name"))
+#CCI$id_eek<-as.numeric(CCI$id_eek)
+
+titular1 <- paste("Negative Tweets at county level")
+cty_plot <- ggplot(cPc, aes(x=long, y=lat, group=group, fill = hate_count)) +
+  geom_polygon() + 
+  ggtitle(titular1) +scale_fill_continuous(low="thistle2", high="darkred", 
+                       guide="colorbar",na.value="white")
+cty_plot
+
+```
+
+
+This is a map of counties showing anti-international migration normalized by international migrants. A smaller value will mean the place saw higher international migration and lower hate tweets, a higher value means there are more hate incidents and lower migration populations. 
+
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+cty_pop_est <- read.csv("county_pop_est_15.csv")   #[,c(3,4)]
+cty_pop_est<-cty_pop_est %>% 
+  dplyr::select(POPESTIMATE2015, INTERNATIONALMIG2015, STNAME, CTYNAME)
+
+CCI_norm <- full_join(cty_pop_est, cPc, by=c("CTYNAME"="NAMELSAD"))
+
+#lets add normalizing columns by both population and migration
+CCI_norm_pop <- CCI_norm %>% 
+  mutate(hate_norm_pop = hate_count/POPESTIMATE2015) %>% 
+  mutate(hate_norm_mig = hate_count/INTERNATIONALMIG2015) 
+
+titular2 <- paste("Negative Tweets Normalized by International Migration from 2015-Counties")
+cty_mig_p <- ggplot(CCI_norm_pop, aes(x=long, y=lat, group=group, fill = hate_norm_mig)) +
+  geom_polygon() + 
+  ggtitle(titular2) +scale_fill_continuous(low="white", high="darkred", 
+                       guide="colorbar",na.value="white")
+cty_mig_p
+```
+
+```{r, eval=TRUE, echo=FALSE, results='hide', fig.keep='none'}
+
+CCI_norm_table<- CCI_norm_pop %>% 
+  dplyr::select(hate_norm_mig, hate_count, INTERNATIONALMIG2015, CTYNAME) 
+  
+  
+```
+
+The two tables shown here are to show how many times the lowest (-4) and highest (4) values occured. 
+From these tables we can see the highest values (high antiimmigration sentiment, low migration occurance), occur more often. This supports the theory of parochiolism in the context of migration. Parochialism is the theory of narrow-mindness because of lack of exposure. It would seem as if the people who post the most anti-international migration, also have lower migration rates into their region. 
+
+These two tables show the most common occurances of hate tweets/migration. 
+The top occurance was a score of 1, that occured 55497 times. 
+The less common occurance, in the next table was .01. This shows that the majority of tweets are neutral when normalized by migration. It also shows the least common values are those with small values, meaning there is higher international migration and lower hate tweets. We see that our theory is slightly reaffirmed. We hypthesized an area with low migration would have higher hate tweets, and a place with higher migration would have lower hate tweets. 
+Now we will move onto a state level anaysis of anti-international migration tweets
+```{r, eval=TRUE, echo=FALSE, results='hide'}
+
+CCI_norm_tb2<-CCI_norm_table %>% 
+  filter(!is.na(hate_norm_mig)) %>% 
+  filter(hate_norm_mig !='Inf') %>% 
+  group_by(hate_norm_mig) %>% 
+  rename(Anti_norm=hate_norm_mig) %>% 
+  tally() %>% 
+  rename(occured=n) 
+
+  CCI_norm_tb2 %>% 
+  arrange(Anti_norm) %>% 
+  head() %>% 
+  kable()
+
+  CCI_norm_tb2 %>% 
+  arrange(desc(Anti_norm)) %>% 
+  head() %>% 
+  kable()
+  #lets make a bar graph to show these values 
+  
+  
+Plt <-ggplot(data=CCI_norm_tb2, aes(x=occured, y=Anti_norm)) + geom_bar(stat="identity") + theme_minimal()
+``` 
+
+
+```{r, eval=TRUE, echo=FALSE, results='hide'}
+#abbreviations of states and full state names:
+#wrote this state level analysis code before I figured out the county level analyis, 
+#so it may seem a little repitive. 
+
+states <- read.csv("states.csv")
+geocoded_results <- read.csv("geocoded_results.csv")
+
+#paste function takes collapse value, which will collapse into one string, seperated by the value specified. Using paste we can pass a string == paste(matches, collapse = "|")
+#So collapse creates a regular expression with either dog OR cat and would works with a long list of patterns without typing each. https://stackoverflow.com/questions/25391975/grepl-in-r-to-find-matches-to-any-of-a-list-of-character-strings/25392112#25392112
+#from user: docendo discimus
+
+#this will find the states pattern, and return those columns
+states_geo_dd <- geocoded_results[grepl(paste(states$State, collapse = "|"), geocoded_results$formatted_address),]
+states_geo_cc <- geocoded_results[grepl(paste(states$Abbrev, collapse = "|"), geocoded_results$formatted_address),]
+#bring two datasets together
+states_geo_all <- bind_rows(states_geo_cc, states_geo_dd) 
+#now have to strip away the USA part
+#to character for str_extract_all function
+states_geo_all$formatted_address <-
+  as.character(states_geo_all$formatted_address)
+states$State <- as.character(states$State)
+states$Abbrev <- as.character(states$Abbrev)
+
+# Extract all pieces of a string that match a pattern
+#states_geo_dd$formatted_address, extract wasn't working so replace all
+
+#tried several versions of grep and grepl, but couldn't get my strings to work, so I used the STR_replace all hack, redundant but does the trick
+states_geo_all$formatted_address <-str_replace_all(string = states_geo_all$formatted_address, 
+                  pattern = ", USA", replacement = "")
+
+states_geo_all$formatted_address <-str_replace_all(string = states_geo_all$formatted_address, 
+                  pattern = c(", NY", ", DC"),
+                  replacement = "")
+#other outliers- hacky fix
+states_geo_all$formatted_address<-str_replace_all(states_geo_all$formatted_address, 
+                                                  "Mesa, AZ", "Arizona") 
+states_geo_all$formatted_address<-str_replace_all(states_geo_all$formatted_address, 
+                                                  "Phoenix, AZ", "Arizona") 
+states_geo_all$formatted_address<-str_replace_all(states_geo_all$formatted_address, 
+                                                  "New York, NY", "New York") 
+states_geo_all$formatted_address<-str_replace_all(states_geo_all$formatted_address, 
+                                                  "Redlands, CA", "California") 
+
+```
+
+```{r, eval=TRUE, echo=FALSE, results='hide'}
+#population estimates from census
+state_tally <- states_geo_all %>% 
+  group_by(formatted_address) %>% 
+  tally() %>% 
+  rename(Tweet_num = n) %>% 
+  arrange(desc(Tweet_num)) 
+
+pop_est <- read.csv("pop_est.csv")   #[,c(3,4)]
+pop_est<- pop_est[,c(5,13)] 
+boop <- inner_join(pop_est, state_tally, 
+                   by = c("NAME" = "formatted_address"))
+state_prop <- boop %>% 
+  mutate(prop = Tweet_num/POPESTIMATE2015) %>% 
+  slice(1:10)
+
+titleG <- paste("Negative Tweets per State November 31 - Dec 14th")
+  prop2 <- ggplot(data=state_prop, aes(x=fct_reorder(f=NAME, x=Tweet_num), y=Tweet_num)) +
+  geom_bar(stat="identity") + coord_flip() + ylab("Number of Negative Tweets") + xlab("State") + ggtitle(titleG)
+  
+  CCI_norm_tb2 %>% 
+  arrange(desc(occured)) %>% 
+  head() %>% 
+  kable()
+
+
+  CCI_norm_tb2 %>% 
+  arrange(occured) %>% 
+  head() %>% 
+  kable()
+  
+
+```
+
+
+THIS WAS I BUG I HOPE To FIX IN MY LATER ANAYSIS: I could not figure out how to use the ifelse loop to not only detect the abbreviation, but then replace it with the abbreviations's corresponding state name.
+Due to this limitation, which I hope to fix with some feedback- I later end up losing data with abbreviations and not fully spelled out state names. 
+```{r, eval=FALSE, echo=FALSE, results='hide'}
+#if abbrev = true, then put in the abbrev equal to corresponding state, or put in address
+#state_tally$formatted_address
+abbrevs<-paste(states$Abbrev, collapse = "|")
+state_tally_z <- state_tally%>% 
+  mutate(state_z= ifelse(grepl(paste(states$Abbrev, collapse = "|"), 
+                               state_tally$formatted_address,
+                               ignore.case = TRUE), 'Arizona', formatted_address))
+
+ifelse(<condition>, <yes>, ifelse(<condition>, <yes>, <no>))
+
+#data[grepl(paste(matches, collapse = "|"), data$animal),]
+
+#ifelse("abbrev==TRUE", State$state==Abbrev, formatted_address)
+#http://rstudio-pubs-static.s3.amazonaws.com/62942_69e9b8ea3eff4a65ada63eaa54bb4eff.html
+``` 
+
+Here are the state statistics:
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+#https://www.census.gov/popest/data/national/totals/2015/NST-EST2015-alldata.html
+
+titleG <- paste("Negative Tweets per State November 31 - Dec 14th")
+#let's take a log of this and make a plot
+prop2 <- ggplot(data=state_prop, aes(x=fct_reorder(f=NAME, x=Tweet_num), y=Tweet_num)) +
+  geom_bar(stat="identity") + coord_flip() + ylab("Number of Negative Tweets") + xlab("State") + ggtitle(titleG)
+
+prop2
+
+titleF <- paste("Negative Tweets Proportional to Population per State (November 31 - Dec 14th)")
+#let's take the proportion of tweets/state population
+prop <- ggplot(data=state_prop, aes(x=fct_reorder(f=NAME, x=(prop)),
+                                    y = (prop))) + coord_flip() + geom_bar(stat="identity") + ylab("Proportion of Negative Tweets by Population") + xlab("State") + ggtitle(titleF)
+prop
+#let's calculate a proportion of the states per population to see who is disporportionately represented
+
+#to keep track of geocoded lat, long
+stateM <-states_geo_all[,c(2,3,5)] %>% 
+  rename(lat_geocoded = lat) %>% 
+  rename(long_geocoded = long) 
+twit_state <- inner_join(state, states_geo_all,
+                         by= c("name"= "formatted_address")) 
+
+title <- paste("States with Anti-international migration Sentimentality")
+ggplot(twit_state, aes(x=long.x, y=lat.x, group=group, fill=name)) +
+  geom_polygon() + 
+  ggtitle(title) 
+
+``` 
+In this next code chunk, we join state geocoded locations from Tweets to international migration numbers from 2015. This is an initial exploratory data analysis of a state level tweet aggregation. 
+
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+#this is the prep required to prepare for a regression
+#regression df: states with column (mutate) added with binary of migration above threshold proportional to population.
+
+migration_RL <- read.csv("domesticMigration.csv") 
+
+migration_RL <- migration_RL %>% 
+dplyr::select(INTERNATIONALMIG2015, STNAME, CTYNAME, POPESTIMATE2015)
+
+migration_CL <-migration_RL %>%  
+  rename(pappy = POPESTIMATE2015) %>% 
+  rename(yastate = STNAME)              #to avoid confusion - unique names
+
+bangbopp <- migration_CL %>% 
+  group_by(yastate) %>%
+  summarise(sum_pappy = sum(pappy), sum_migration = sum(INTERNATIONALMIG2015)) #population by state-- originally at cty level so add
+
+#stateM3migration <- full_join(migration_RL, stateM3, by= c("yastate" = "State"))
+#data limitiations- dropping unique place names
+stateM3migration <- full_join(migration_CL, states_geo_all, by= c("yastate" = "formatted_address"))
+
+``` 
+
+
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+
+titleG <- paste("Negative Tweets per State November 31 - Dec 15th")
+#let's take a log of this and make a plot
+prop2 <- ggplot(data=state_prop, aes(x=fct_reorder(f=NAME, x=Tweet_num), y=Tweet_num)) +
+  geom_bar(stat="identity") + coord_flip() + ylab("Number of Negative Tweets") + xlab("State") + ggtitle(titleG)
+
+prop2
+
+#bangbopp has sum of migration and population, aggregated over county to state
+stM4_sum_all <- full_join(bangbopp, state_tally, by= c("yastate" = "formatted_address"))
+
+#proportion of migration per country
+stateM3_migration_prop <- stM4_sum_all %>% 
+  mutate(prop_mig = sum_migration/sum_pappy) 
+
+stateM3migration_ZZ <- stM4_sum_all %>% 
+  mutate(prop_hate_mig = Tweet_num/sum_migration) %>% 
+  filter(!is.na(prop_hate_mig))
+
+titleJJ <- paste("Negative Tweets Proportional to Migration per State (November 31 - Dec 15th)")
+#let's take the proportion of tweets/state population
+
+bahh <- ggplot(data=stateM3migration_ZZ, aes(x=fct_reorder(f=yastate, x=(prop_hate_mig)),
+                                    y = (prop_hate_mig))) + coord_flip() + geom_bar(stat="identity") + ylab("") + xlab("") + ggtitle(titleJJ)+ theme_light()
+bahh
+
+titex <- paste("International Migration By State in 2015") 
+ 
+migration_freq <- ggplot(stateM3_migration_prop, 
+                         aes(x=fct_reorder(f=Abbrev, x=sum_migration), y=sum_migration)) +geom_bar(stat="identity") + coord_flip() + ylab("Migration Number") + xlab("State") + ggtitle(titex) + theme_classic() 
+#+ geom_text(aes(label = Abbrev), position = "dodge") +coord_flip()
+
+#migration_freq
+#abbrevs
+#okay so we now have states, joined with iinstances of hate, migration rates, and proportions
+```
+
+We begin to format our data to later map: 
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+mig_state <- inner_join(state, migration_RL, by= c("name"= "STNAME")) 
+migration_State <- mig_state %>% 
+  group_by(name)
+
+titlePee <- paste("International Migration in 2015")
+```
+
+This is a chloropleth map of international migration flows into the United States. The last map shows all of the tweets(no missing data like in stats for states analysis above). It shows the geocoded location the tweets originate from too!
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+PLOTZ <- ggplot(mig_state, aes(x=long, y=lat, group=group, fill= INTERNATIONALMIG2015)) +
+  geom_polygon() + 
+  ggtitle(titlePee) 
+PLOTZ
+
+ggplot(mig_state, aes(x=long, y=lat, group=group, col= INTERNATIONALMIG2015, 
+                      fill = INTERNATIONALMIG2015)) +
+  geom_polygon() + 
+  geom_point(data = states_geo_all,
+             aes(x = long, y = lat, group = X),
+             color = 'darkorange',
+             size = 1.5, inherit.aes=FALSE) + ggtitle(title) 
+
+migration_twit <- full_join(twit_state, migration_RL, by= c("name"= "STNAME")) 
+
+```
+
+To prepare for a regression, we first explore a histogram of the data, and then proceed with our regression. 
+
+The first linear regression model was created to find a relationship between the number of hate tweets in a state and the number of international migrants corresponding to the state. This model was statistically significant at p < .001, and had small positive coefficient estimate. These results would indicate that for every one unit increase in international immigration, there is a small increase (0.00001973) in hate tweets.
+
+The next linear regression model controlled for the migrants per population, by dividing the migrants by the total population of the corresponding state, and using this calculation as a predictor variable (x). This model was also statistically significant at <.01 and showed that for every one unit increase in international migration, we would expect a small increase in hate tweets by a miniscule proportion.
+
+```{r, eval=TRUE, echo=FALSE, results='hide', message='hide'}
+titH <- paste("Histogram of Frequency of Observations in 50 states")
+num_obs <- paste("Number of Observations")
+freq <- paste("Frequency")
+histo_variation <- ggplot(data= stateM3_migration_prop, aes(x= Tweet_num)) + geom_histogram() +theme_light() + stat_bin(bins = 25) + ggtitle(titH) +xlab(num_obs) +ylab(freq)
+histo_variation
+
+reg_mode=lm(stateM3_migration_prop$Tweet_num
+             ~ stateM3_migration_prop$sum_migration) #fit a regression model
+summary(reg_mode)
+
+reg_model2=lm(stateM3_migration_prop$Tweet_num
+             ~ stateM3_migration_prop$prop_mig) #fit a regression model
+summary(reg_model2)
+```
+
+The results from our analysis indicate there is a statistically significant relationship between anti-international migration tweets and migration change. The data however, because of its lack of normality and frequencies in observations, as show below, shows it is unsurprising our coefficients were small. The two models show that for every unit increase of international migration, there was a small increase in hate tweets. 
+
+Data Limitations/ Where I would like to expand to in the future:
+
+Due to processing time and computing power on the user's computer, she was not able to also pull in positive tweets from live streaming in a python script or from loading tweets using the searchTwitter function. The process to convert these to a dataframe and extract location information on R, took too much time and processing power. I would also like to do a possion/binomial regression in the future.
+
+I would also like to expand my analysis by pulling in data from the census that gives a detailed breakdown of the country of origin of the international migrant. It would be interesting to see if the type of migrant has an effect on local sentiment expression via Twitter. 
+```{r, eval=FALSE, echo=TRUE, results='hide', message='hide'}
+#positive sentiments
+bad_hombres <- searchTwitter("#BadHombres", n=100, lang="en", since='2016-10-19', until='2016-10-31')
+taco_truck <- searchTwitter("#tacotruckoneverycorner", n=100, lang="en") 
+taco_truck2 <- searchTwitter("#TacoTrucksOnEveryCorner", n=100, lang="en") 
+  #VotoLatino
+welcomemigrants <- searchTwitter("#welcomemigrants", n=100, lang="en")
+welcomemigrants2 <- searchTwitter("#WelcomeMigrants", n=100, lang="en")
+welcomerefugees <- searchTwitter("#welcomerefugees", n=100, lang="en")
+welcomerefugees <- searchTwitter("#WelcomeRefugees", n=100, lang="en")
+```
+
+Conclusion:
+
+    It is still hypothesized parochialism may be even further exacerbated by the geography of twitter networks. Contrary to what globalism theory claims, we are becoming balkanized in our own views, as our views determine the people we interact with. Our analysis gives us mixed results, primarily due to the small sample size of the Twitter dataset generated. The regression results show for every increase in migration there is a miniscule increase in anti-international migration tweets. This shows migration into a place, at a state level, may slightly (< 0.00002) increase negative sentiments towards migrants. This is however, due to the dataset, largely inconclusive. 
+	  There are more questions from this analysis than there are answers, but I see this as a place of growth, where a future analysis may be improved with data. There are several implications for this research going forward, namely, given an increase in migration, does this mean local residents will begin to move, further dividing the country? Does this mean migration will not change in response to migration inflows, possibly breaking apart parochialism and healing a national divide? Data collection via live streaming tweets is continuously live, and with the addition of new daily data I collect, over months this analysis will go beyond its current data-lacking phase. 
+	  
+
+Sources Cited: (found throughout the entire doc as well)
+
+Dismo Package: https://cran.r-project.org/web/packages/dismo/dismo.pdf 
+
+Geocoding Tutorial: https://gist.github.com/dsparks/4329876
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Thanks to: Ellen Sartorelli and Davin Chia with help formatting Python scripts. 
