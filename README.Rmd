@@ -3,34 +3,12 @@ title: "MATH 216 Data Science Final Project (Fall 2016)"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ---
 output: 
   html_document: 
     keep_md: yes
 ---
 
-
-* Name: 
-* Project title:
-* Write-up on RPubs: <http://rpubs.com/rudeboybert/Tree_Growth_Differences>
-* Abstract: Hello World!
-
-
-
-
----
-title: "MATH 216 Data Science Final Project (Fall 2016)"
-output: github_document
----
----
-output: 
-html_document: 
-keep_md: yes
----
 
 * Name: Bianca Gonzalez
 
